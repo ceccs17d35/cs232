@@ -1,0 +1,104 @@
+Script started on 2019-04-01 10:09:19+05:30
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo ifcong[Kfig
+[sudo] password for moniya: 
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::a271:6b23:b576:219f  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:37:e8:f2  txqueuelen 1000  (Ethernet)
+        RX packets 3144  bytes 1963758 (1.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3403  bytes 469543 (469.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 312  bytes 25885 (25.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 312  bytes 25885 (25.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo ifconfig enpls0
+enpls0: error fetching interface information: Device not found
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo ifconfig enpls0[K[K[K[K[Knp0s3
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::a271:6b23:b576:219f  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:37:e8:f2  txqueuelen 1000  (Ethernet)
+        RX packets 4907  bytes 3564832 (3.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4992  bytes 679887 (679.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo ifconfig enp0s3 19.168.13.0[K[K[K[K[K[K[K[K[K[K[K192.168.0.5
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo ifconfig enp0s3 192.168.0.5[1P 192.168.0.5[1P 192.168.0.5[1P 192.168.0.5[1P 192.168.0.5[1P 192.168.0.5[1P 192.168.0.5[1P192.168.0.5[1P 192.168.0.5[1P 192.168.0.5[1P 192.168.0.5[1P 192.168.0.5[1P 192.168.0.5[1P 192.168.0.5[1P 192.168.0.5[1P 192.168.0.5[1P192.168.0.5[C 192.168.0.5p 192.168.0.5i 192.168.0.5n 192.168.0.5g 192.168.0.5[C 192.168.0.5
+PING 192.168.0.5 (192.168.0.5) 56(84) bytes of data.
+64 bytes from 192.168.0.5: icmp_seq=1 ttl=64 time=0.024 ms
+64 bytes from 192.168.0.5: icmp_seq=2 ttl=64 time=0.063 ms
+64 bytes from 192.168.0.5: icmp_seq=3 ttl=64 time=0.060 ms
+64 bytes from 192.168.0.5: icmp_seq=4 ttl=64 time=0.059 ms
+64 bytes from 192.168.0.5: icmp_seq=5 ttl=64 time=0.062 ms
+64 bytes from 192.168.0.5: icmp_seq=6 ttl=64 time=0.060 ms
+64 bytes from 192.168.0.5: icmp_seq=7 ttl=64 time=0.061 ms
+64 bytes from 192.168.0.5: icmp_seq=8 ttl=64 time=0.067 ms
+64 bytes from 192.168.0.5: icmp_seq=9 ttl=64 time=0.061 ms
+64 bytes from 192.168.0.5: icmp_seq=10 ttl=64 time=0.060 ms
+64 bytes from 192.168.0.5: icmp_seq=11 ttl=64 time=0.059 ms
+64 bytes from 192.168.0.5: icmp_seq=12 ttl=64 time=0.059 ms
+64 bytes from 192.168.0.5: icmp_seq=13 ttl=64 time=0.061 ms
+64 bytes from 192.168.0.5: icmp_seq=14 ttl=64 time=0.059 ms
+64 bytes from 192.168.0.5: icmp_seq=15 ttl=64 time=0.059 ms
+64 bytes from 192.168.0.5: icmp_seq=16 ttl=64 time=0.064 ms
+64 bytes from 192.168.0.5: icmp_seq=17 ttl=64 time=0.060 ms
+64 bytes from 192.168.0.5: icmp_seq=18 ttl=64 time=0.035 ms
+64 bytes from 192.168.0.5: icmp_seq=19 ttl=64 time=0.055 ms
+64 bytes from 192.168.0.5: icmp_seq=20 ttl=64 time=0.062 ms
+64 bytes from 192.168.0.5: icmp_seq=21 ttl=64 time=0.060 ms
+64 bytes from 192.168.0.5: icmp_seq=22 ttl=64 time=0.060 ms
+64 bytes from 192.168.0.5: icmp_seq=23 ttl=64 time=0.059 ms
+64 bytes from 192.168.0.5: icmp_seq=24 ttl=64 time=0.061 ms
+64 bytes from 192.168.0.5: icmp_seq=25 ttl=64 time=0.060 ms
+64 bytes from 192.168.0.5: icmp_seq=26 ttl=64 time=0.061 ms
+64 bytes from 192.168.0.5: icmp_seq=27 ttl=64 time=0.062 ms
+64 bytes from 192.168.0.5: icmp_seq=28 ttl=64 time=0.060 ms
+64 bytes from 192.168.0.5: icmp_seq=29 ttl=64 time=0.059 ms
+64 bytes from 192.168.0.5: icmp_seq=30 ttl=64 time=0.065 ms
+64 bytes from 192.168.0.5: icmp_seq=31 ttl=64 time=0.061 ms
+64 bytes from 192.168.0.5: icmp_seq=32 ttl=64 time=0.073 ms
+64 bytes from 192.168.0.5: icmp_seq=33 ttl=64 time=0.085 ms
+64 bytes from 192.168.0.5: icmp_seq=34 ttl=64 time=0.062 ms
+64 bytes from 192.168.0.5: icmp_seq=35 ttl=64 time=0.029 ms
+64 bytes from 192.168.0.5: icmp_seq=36 ttl=64 time=0.060 ms
+64 bytes from 192.168.0.5: icmp_seq=37 ttl=64 time=0.060 ms
+64 bytes from 192.168.0.5: icmp_seq=38 ttl=64 time=0.061 ms
+^C
+--- 192.168.0.5 ping statistics ---
+38 packets transmitted, 38 received, 0% packet loss, time 996ms
+rtt min/avg/max/mdev = 0.024/0.059/0.085/0.010 ms
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo ifdown enp0s3
+ifdown: unknown interface enp0s3
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ ifconfig
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.5  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::a271:6b23:b576:219f  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:37:e8:f2  txqueuelen 1000  (Ethernet)
+        RX packets 4952  bytes 3568899 (3.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 5042  bytes 684720 (684.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 595  bytes 48160 (48.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 595  bytes 48160 (48.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo ifconfig enp0s3 down
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-01 10:22:27+05:30

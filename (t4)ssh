@@ -1,0 +1,56 @@
+Script started on 2019-04-01 10:50:13+05:30
+]0;moniya@moniya-VirtualBox: ~/Desktop/fosslab[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~/Desktop/fosslab[00m$ ssh cs17d35@14.139.[K]0;moniya@moniya-VirtualBox: ~/Desktop/fosslab[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~/Desktop/fosslab[00m$ ssh cs17d35@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d35@14.139.189.217's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Apr  1 10:39:07 2019 from 137.97.79.90
+$ ls
+examples.desktop  labtasks.txt	samples  string.sh  tasks
+$ cd tasks
+$ mcat    cat>labtasks.txt
+1.Scripting task
+2.Networking task
+3.sss ,scp,rsync^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D                                               sh,rsync,scp
+4.ftp 
+5.Other tasks^C
+$ touch     cat labtasks.txt
+1.Scripting task
+2.Networking task
+3.ssh,rsync,scp
+4.ftp 
+$ cd ..
+$ touch sample.txt
+$ rm sample.txt
+$ mkdir new
+$ find labtasks.txt
+labtasks.txt
+$ du
+4	./.cache
+40	./.config/plank/dock1/launchers
+44	./.config/plank/dock1
+48	./.config/plank
+52	./.config
+4	./new
+4	./samples
+8	./tasks
+108	.
+$ history
+-sh: 11: history: not found
+$ pwd
+/home/cs17d35
+$ exit
+Connection to 14.139.189.217 closed.
+]0;moniya@moniya-VirtualBox: ~/Desktop/fosslab[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~/Desktop/fosslab[00m$ exit
+exit
+
+Script done on 2019-04-01 10:57:59+05:30
