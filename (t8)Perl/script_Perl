@@ -1,0 +1,24 @@
+Script started on 2019-05-06 10:09:06+05:30
+]0;moniya@moniya: ~/Desktop/fosslab[01;32mmoniya@moniya[00m:[01;34m~/Desktop/fosslab[00m$ sudo apt-get install perl
+[sudo] password for moniya: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+perl is already the newest version (5.26.2-7ubuntu0.1).
+perl set to manually installed.
+The following packages were automatically installed and are no longer required:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0 libncursesw5 libtinfo5
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 51 not upgraded.
+]0;moniya@moniya: ~/Desktop/fosslab[01;32mmoniya@moniya[00m:[01;34m~/Desktop/fosslab[00m$ gedit
+^C
+]0;moniya@moniya: ~/Desktop/fosslab[01;32mmoniya@moniya[00m:[01;34m~/Desktop/fosslab[00m$ perl add.pl
+Enter first value
+5
+Enter second value
+4
+The sum is 9
+]0;moniya@moniya: ~/Desktop/fosslab[01;32mmoniya@moniya[00m:[01;34m~/Desktop/fosslab[00m$ exit
+exit
+
+Script done on 2019-05-06 10:52:14+05:30
