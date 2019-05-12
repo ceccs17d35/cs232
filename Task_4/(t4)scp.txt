@@ -23,11 +23,13 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 0 updates are security updates.
 
 *** System restart required ***
-Last login: Mon Apr  8 09:54:00 2019 from 137.97.10.104
+Last login: Mon Apr  8 09:54:00 2019 from 137.97.10.104
+
 $ ls
 examples.desktop  labtasks.txt	new  result.txt  samples  string.sh  tasks
 $ exit
-Connection to 14.139.189.217 closed.
+Connection to 14.139.189.217 closed.
+
 ]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ scp cs17d35@14.139.189.217:~/ tasks[K[K[K[K[K[Ktasks ./
 .
               |
@@ -43,7 +45,8 @@ scp: /home/cs17d35/tasks: not a regular file
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d35@14.139.189.217's password: 
-labtasks.txt                                                                                                                                                              100%    0     0.0KB/s   00:00    
+
+labtasks.txt                                                                                                                                                              100%    0     0.0KB/s   00:00    
 ]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ exit
 exit
 
