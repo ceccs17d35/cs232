@@ -1,9 +1,31 @@
 Script started on 2019-05-06 10:09:06+05:30
 ]0;moniya@moniya: ~/Desktop/fosslab[01;32mmoniya@moniya[00m:[01;34m~/Desktop/fosslab[00m$ sudo apt-get install perl
 [sudo] password for moniya: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 perl is already the newest version (5.26.2-7ubuntu0.1).
 perl set to manually installed.
 The following packages were automatically installed and are no longer required:
