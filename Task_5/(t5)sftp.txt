@@ -1,7 +1,13 @@
 Script started on 2019-04-01 09:52:45+05:30
-]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ rebootsudo ifconfig enp1s0 192.168.0.97 netmask 255.255.2555.0[A]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pcript t3cd Desktopscript (t3)[6Pclearscript (t3)[1Pcd Desktop[1Pscript t3udo ifconfig enp1s0 192.168.0.97 netmask 255.255.2555.0[A]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ reboot[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksftp cs17d35@14.139.189.217
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ rebootsudo ifconfig enp1s0 192.168.0.97 netmask 255.255.255
+5.0[A
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pcript t3cd Desktopscript (t3)[6Pclearscript (t3)[1Pcd Desktop[1Pscript t3udo ifconfig enp1s0 192.168.0.97 netmask 255.255.255
+5.0[A
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ reboot[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksftp cs17d35@14.139.189.217
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -11,13 +17,18 @@ cs17d35@14.139.189.217's password:
 Connected to cs17d35@14.139.189.217.
 sftp> ls
 examples.desktop    
-sftp> mkdir task5[17G[Ks
+sftp> mkdir task5
+[17G[Ks
 sftp> put /home/moniya/Desktop/string.sh
 Uploading /home/moniya/Desktop/string.sh to /home/cs17d35/string.sh
-/home/moniya/Desktop/string.sh                  0%    0     0.0KB/s   --:-- ETA/home/moniya/Desktop/string.sh                100%  164     0.8KB/s   00:00    
+
+/home/moniya/Desktop/string.sh                  0%    0     0.0KB/s   --:-- ETA
+/home/moniya/Desktop/string.sh                100%  164     0.8KB/s   00:00    
 sftp> get string.sh
 Fetching /home/cs17d35/string.sh to string.sh
-/home/cs17d35/string.sh                                                                                                                                                     0%    0     0.0KB/s   --:-- ETA/home/cs17d35/string.sh                                                                                                                                                   100%  164     0.8KB/s   00:00    
+
+/home/cs17d35/string.sh                                                                                                                                                     0%    0     0.0KB/s   --:-- ETA
+/home/cs17d35/string.sh                                                                                                                                                   100%  164     0.8KB/s   00:00    
 sftp> pwd
 Remote working directory: /home/cs17d35
 sftp> version
@@ -25,10 +36,13 @@ SFTP protocol version 3
 sftp> lls
 compue_cgpa.c  Desktop	Documents  Downloads  examples.desktop	Music  Pictures  Public  sample.sh  samp.sh  sftp  string.sh  Templates  test  Videos
 sftp> lmkdir test
-Couldn't create local directory "test": File exists
-sftp> [7Glmkdir test0
+Couldn't create local directory "test": File exists
+
+sftp> 
+[7Glmkdir test0
 sftp> rmdir test0
-Couldn't remove directory: No such file or directory
+Couldn't remove directory: No such file or directory
+
 sftp> ?
 Available commands:
 bye                                Quit sftp
