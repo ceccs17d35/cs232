@@ -1,9 +1,31 @@
 Script started on 2019-04-08 09:17:15+05:30
 ]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ exitrsync -zvh result.txt fosslab[3Psudo apt-get install rsync
 [sudo] password for moniya: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 rsync is already the newest version (3.1.2-2.2).
 0 upgraded, 0 newly installed, 0 to remove and 304 not upgraded.
 ]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo apt-get install rsyncexit[Krsync -zvh result.txt fosslab
