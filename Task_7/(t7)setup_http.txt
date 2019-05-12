@@ -1,0 +1,381 @@
+Script started on 2019-05-06 11:13:14+05:30
+]0;moniya@moniya: ~/Desktop/fosslab[01;32mmoniya@moniya[00m:[01;34m~/Desktop/fosslab[00m$ sudo apt-get update
+[sudo] password for moniya: 
+
+0% [Working]
+0% [Connecting to in.archive.ubuntu.com] [Connecting to security.ubuntu.com (91.189.91.26)] [Connecting to packages.microsoft.com (13.76.190.189)]
+                                                                                                                                                  
+Hit:1 http://packages.microsoft.com/repos/vscode stable InRelease
+
+                                                                                                                                                  
+0% [Connecting to in.archive.ubuntu.com] [Connecting to security.ubuntu.com (91.189.91.26)]
+0% [1 InRelease gpgv 3,181 B] [Connecting to in.archive.ubuntu.com (91.189.88.152)] [Waiting for headers]
+                                                                                                         
+0% [Waiting for headers] [Waiting for headers]
+                                              
+Get:2 http://security.ubuntu.com/ubuntu cosmic-security InRelease [88.7 kB]
+
+0% [Waiting for headers] [2 InRelease 3,592 B/88.7 kB 4%]
+                                                         
+Hit:3 http://in.archive.ubuntu.com/ubuntu cosmic InRelease
+
+0% [Waiting for headers] [2 InRelease 12.7 kB/88.7 kB 14%]
+0% [3 InRelease gpgv 242 kB] [Waiting for headers] [2 InRelease 12.7 kB/88.7 kB 14%]
+                                                                                    
+0% [Waiting for headers] [2 InRelease 12.7 kB/88.7 kB 14%]
+                                                          
+Get:4 http://in.archive.ubuntu.com/ubuntu cosmic-updates InRelease [88.7 kB]
+
+0% [4 InRelease 1,008 B/88.7 kB 1%] [2 InRelease 12.7 kB/88.7 kB 14%]
+0% [4 InRelease 46.5 kB/88.7 kB 52%] [2 InRelease 45.2 kB/88.7 kB 51%]
+                                                                      
+0% [2 InRelease 62.1 kB/88.7 kB 70%]
+0% [4 InRelease gpgv 88.7 kB] [Waiting for headers] [2 InRelease 62.1 kB/88.7 kB 70%]
+                                                                                     
+0% [Waiting for headers] [2 InRelease 62.1 kB/88.7 kB 70%]
+                                                          
+Get:5 http://in.archive.ubuntu.com/ubuntu cosmic-backports InRelease [74.6 kB]
+
+0% [5 InRelease 2,308 B/74.6 kB 3%] [2 InRelease 62.1 kB/88.7 kB 70%]
+                                                                     
+0% [5 InRelease 73.8 kB/74.6 kB 99%]
+                                    
+0% [2 InRelease gpgv 88.7 kB]
+                             
+0% [Waiting for headers]
+0% [5 InRelease gpgv 74.6 kB] [Waiting for headers]
+                                                   
+42% [Waiting for headers]
+                         
+Get:6 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 Packages [346 kB]
+
+43% [6 Packages 7,591 B/346 kB 2%]
+56% [6 Packages 153 kB/346 kB 44%]
+71% [6 Packages 323 kB/346 kB 93%]
+                                  
+73% [Waiting for headers]
+                         
+Get:7 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main i386 Packages [307 kB]
+
+75% [7 Packages 23.2 kB/307 kB 8%]
+75% [6 Packages store 0 B] [7 Packages 28.7 kB/307 kB 9%]
+                                                         
+78% [7 Packages 64.8 kB/307 kB 21%]
+                                   
+90% [7 Packages 197 kB/307 kB 64%]
+                                  
+100% [Working]
+100% [7 Packages store 0 B]
+                           
+100% [Working]
+              
+Fetched 904 kB in 5s (170 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 26%
+
+Reading package lists... 38%
+
+Reading package lists... 38%
+
+Reading package lists... 56%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+]0;moniya@moniya: ~/Desktop/fosslab[01;32mmoniya@moniya[00m:[01;34m~/Desktop/fosslab[00m$ sudo apt-get install apache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages were automatically installed and are no longer required:
+  libncursesw5 libtinfo5
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2
+0 upgraded, 1 newly installed, 0 to remove and 51 not upgraded.
+Need to get 0 B/95.1 kB of archives.
+After this operation, 536 kB of additional disk space will be used.
+Selecting previously unselected package apache2.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 183730 files and directories currently installed.)
+Preparing to unpack .../apache2_2.4.34-1ubuntu2.1_amd64.deb ...
+Unpacking apache2 (2.4.34-1ubuntu2.1) ...
+Processing triggers for ufw (0.36-0ubuntu0.18.10.1) ...
+Setting up apache2 (2.4.34-1ubuntu2.1) ...
+Processing triggers for systemd (239-7ubuntu10.13) ...
+Processing triggers for man-db (2.8.4-2) ...
+]0;moniya@moniya: ~/Desktop/fosslab[01;32mmoniya@moniya[00m:[01;34m~/Desktop/fosslab[00m$ sudo systemctl enable apache2
+Synchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable apache2
+]0;moniya@moniya: ~/Desktop/fosslab[01;32mmoniya@moniya[00m:[01;34m~/Desktop/fosslab[00m$ sudo systemctl enable apache2[C[1P apache2[1P apache2[1P apache2[1P apache2[1P apache2[1P apache2s apache2t apache2a apache2r apache2t apache2[C apache2[C[C[1Papache2[C[C[C[C[C[C[C[C
+]0;moniya@moniya: ~/Desktop/fosslab[01;32mmoniya@moniya[00m:[01;34m~/Desktop/fosslab[00m$ cd /etc/apache2/
+]0;moniya@moniya: /etc/apache2[01;32mmoniya@moniya[00m:[01;34m/etc/apache2[00m$ ls
+apache2.conf  [0m[01;34mconf-available[0m  [01;34mconf-enabled[0m  envvars  magic  [01;34mmods-available[0m  [01;34mmods-enabled[0m  ports.conf  [01;34msites-available[0m  [01;34msites-enabled[0m
+]0;moniya@moniya: /etc/apache2[01;32mmoniya@moniya[00m:[01;34m/etc/apache2[00m$ lscd /etc/apache2/sites-em[Knabled/
+]0;moniya@moniya: /etc/apache2/sites-enabled[01;32mmoniya@moniya[00m:[01;34m/etc/apache2/sites-enabled[00m$ ls
+[0m[01;36m000-default.conf[0m
+]0;moniya@moniya: /etc/apache2/sites-enabled[01;32mmoniya@moniya[00m:[01;34m/etc/apache2/sites-enabled[00m$ ls var/www/html/
+ls: cannot access 'var/www/html/': No such file or directory
+]0;moniya@moniya: /etc/apache2/sites-enabled[01;32mmoniya@moniya[00m:[01;34m/etc/apache2/sites-enabled[00m$ ls var/www/html//var/www/html/[C[C[C[C[C[C[C[C[C[C[C[C[C
+index.html  index.nginx-debian.html
+]0;moniya@moniya: /etc/apache2/sites-enabled[01;32mmoniya@moniya[00m:[01;34m/etc/apache2/sites-enabled[00m$ ls /var/www/html/[1P /var/www/html/[1P /var/www/html/s /var/www/html/u /var/www/html/d /var/www/html/o /var/www/html/[C /var/www/html/g /var/www/html/e /var/www/html/d /var/www/html/i /var/www/html/t /var/www/html/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cindex.html
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:33:56.206[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:33:56.208[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:33:56.395[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:33:56.395[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:35:10.402[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:35:10.403[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:35:33.489[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:35:33.489[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:36:26.544[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:36:26.545[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:37:03.022[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:37:03.023[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:37:26.765[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:16861): [1;33mWARNING[0m **: [34m11:37:26.766[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+^C
+]0;moniya@moniya: /etc/apache2/sites-enabled[01;32mmoniya@moniya[00m:[01;34m/etc/apache2/sites-enabled[00m$ sudo gedit /var/www/html/index.html[18Pls /var/www/html/[1Pvar/www/html/[Kcd /etc/apache2/sites-enabled/ls[Kcd /etc/apache2/sudo systemctl start apache2[1P[1P[1P apache2[1P[C[1P apache2s apache2t apache2a apache2t apache2u apache2s apache2
+[sudo] password for moniya: 
+Sorry, try again.
+[sudo] password for moniya: 
+[?1h=
+[0;1;32m●[0m apache2.service - The Apache HTTP Server[m
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)[m
+   Active: [0;1;32mactive (running)[0m since Mon 2019-05-06 11:14:53 IST; 25min ago[m
+ Main PID: 15925 (apache2)[m
+    Tasks: 55 (limit: 4680)[m
+   Memory: 7.6M[m
+   CGroup: /system.slice/apache2.service[m
+           ├─15925 /usr/sbin/apache2 -k start[m
+           ├─15927 /usr/sbin/apache2 -k start[m
+           └─15928 /usr/sbin/apache2 -k start[m
+[m
+May 06 11:14:52 moniya systemd[1]: Starting The Apache HTTP Server...[m
+May 06 11:14:53 moniya apachectl[15898]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 10.0.2.15. Set the 'ServerName' directive globally to suppress this [m
+May 06 11:14:53 moniya systemd[1]: Started The Apache HTTP Server.[m
+[7mlines 1-14/14 (END)[27m[K
+[K[?1l>
+]0;moniya@moniya: /etc/apache2/sites-enabled[01;32mmoniya@moniya[00m:[01;34m/etc/apache2/sites-enabled[00m$ exit
+exit
+
+Script done on 2019-05-06 11:40:33+05:30
