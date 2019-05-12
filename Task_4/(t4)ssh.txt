@@ -1,5 +1,6 @@
 Script started on 2019-04-01 10:50:13+05:30
-]0;moniya@moniya-VirtualBox: ~/Desktop/fosslab[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~/Desktop/fosslab[00m$ ssh cs17d35@14.139.[K]0;moniya@moniya-VirtualBox: ~/Desktop/fosslab[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~/Desktop/fosslab[00m$ ssh cs17d35@14.139.189.217
+]0;moniya@moniya-VirtualBox: ~/Desktop/fosslab[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~/Desktop/fosslab[00m$ ssh cs17d35@14.139.
+[K]0;moniya@moniya-VirtualBox: ~/Desktop/fosslab[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~/Desktop/fosslab[00m$ ssh cs17d35@14.139.189.217
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -13,7 +14,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 278 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Apr  1 10:39:07 2019 from 137.97.79.90
+Last login: Mon Apr  1 10:39:07 2019 from 137.97.79.90
+
 $ ls
 examples.desktop  labtasks.txt	samples  string.sh  tasks
 $ cd tasks
@@ -49,7 +51,8 @@ $ history
 $ pwd
 /home/cs17d35
 $ exit
-Connection to 14.139.189.217 closed.
+Connection to 14.139.189.217 closed.
+
 ]0;moniya@moniya-VirtualBox: ~/Desktop/fosslab[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~/Desktop/fosslab[00m$ exit
 exit
 
