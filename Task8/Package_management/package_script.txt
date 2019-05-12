@@ -1,0 +1,1533 @@
+Script started on 2019-04-08 11:51:03+05:30
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo apt-get update
+[sudo] password for moniya: 
+
+0% [Working]
+            
+Get:1 http://packages.microsoft.com/repos/vscode stable InRelease [3,181 B]
+
+0% [Waiting for headers] [Waiting for headers]
+                                              
+Hit:2 http://in.archive.ubuntu.com/ubuntu cosmic InRelease
+
+                                              
+Get:3 http://security.ubuntu.com/ubuntu cosmic-security InRelease [88.7 kB]
+
+0% [Waiting for headers] [3 InRelease 12.7 kB/88.7 kB 14%]
+0% [1 InRelease gpgv 3,181 B] [Waiting for headers] [3 InRelease 12.7 kB/88.7 kB 14%]
+                                                                                     
+Get:4 http://in.archive.ubuntu.com/ubuntu cosmic-updates InRelease [88.7 kB]
+
+0% [1 InRelease gpgv 3,181 B] [4 InRelease 1,006 B/88.7 kB 1%] [3 InRelease 19.2 kB/88.7 kB 22%]
+                                                                                                
+0% [4 InRelease 14.0 kB/88.7 kB 16%] [3 InRelease 29.6 kB/88.7 kB 33%]
+0% [2 InRelease gpgv 242 kB] [4 InRelease 14.0 kB/88.7 kB 16%] [3 InRelease 29.6 kB/88.7 kB 33%] [Waiting for headers]
+                                                                                                                      
+Get:5 http://packages.microsoft.com/repos/vscode stable/main amd64 Packages [109 kB]
+
+0% [2 InRelease gpgv 242 kB] [4 InRelease 14.0 kB/88.7 kB 16%] [3 InRelease 32.2 kB/88.7 kB 36%] [5 Packages 1,006 B/109 kB 1%]
+                                                                                                                               
+0% [4 InRelease 30.2 kB/88.7 kB 34%] [3 InRelease 45.2 kB/88.7 kB 51%] [5 Packages 26.6 kB/109 kB 24%]
+                                                                                                      
+0% [4 InRelease 46.5 kB/88.7 kB 52%] [5 Packages 104 kB/109 kB 95%]
+0% [3 InRelease gpgv 88.7 kB] [4 InRelease 46.5 kB/88.7 kB 52%] [5 Packages 104 kB/109 kB 95%]
+                                                                                              
+0% [3 InRelease gpgv 88.7 kB] [4 InRelease 62.1 kB/88.7 kB 70%]
+0% [5 Packages store 0 B] [3 InRelease gpgv 88.7 kB] [4 InRelease 63.4 kB/88.7 kB 71%]
+                                                                                      
+0% [3 InRelease gpgv 88.7 kB] [4 InRelease 64.7 kB/88.7 kB 73%]
+                                                               
+0% [4 InRelease 64.7 kB/88.7 kB 73%]
+                                    
+0% [Waiting for headers]
+0% [4 InRelease gpgv 88.7 kB] [Waiting for headers] [Waiting for headers]
+                                                                         
+Get:6 http://security.ubuntu.com/ubuntu cosmic-security/main i386 Packages [125 kB]
+
+0% [4 InRelease gpgv 88.7 kB] [Waiting for headers] [6 Packages 4,991 B/125 kB 4%]
+                                                                                  
+Get:7 http://in.archive.ubuntu.com/ubuntu cosmic-backports InRelease [74.6 kB]
+
+0% [4 InRelease gpgv 88.7 kB] [7 InRelease 1,006 B/74.6 kB 1%] [6 Packages 27.1 kB/125 kB 22%]
+                                                                                              
+0% [7 InRelease 54.3 kB/74.6 kB 73%] [6 Packages 85.0 kB/125 kB 68%]
+                                                                    
+0% [6 Packages 115 kB/125 kB 93%]
+0% [7 InRelease gpgv 74.6 kB] [Waiting for headers] [6 Packages 117 kB/125 kB 94%]
+                                                                                  
+0% [7 InRelease gpgv 74.6 kB] [Waiting for headers]
+0% [6 Packages store 0 B] [7 InRelease gpgv 74.6 kB] [Waiting for headers] [Waiting for headers]
+                                                                                                
+0% [7 InRelease gpgv 74.6 kB] [Waiting for headers] [Waiting for headers]
+                                                                         
+33% [Waiting for headers] [Waiting for headers]
+                                               
+Get:8 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 Packages [277 kB]
+
+33% [8 Packages 1,091 B/277 kB 0%] [Waiting for headers]
+                                                        
+Get:9 http://security.ubuntu.com/ubuntu cosmic-security/main amd64 Packages [156 kB]
+
+35% [8 Packages 64.2 kB/277 kB 23%] [9 Packages 1,091 B/156 kB 1%]
+                                                                  
+44% [8 Packages 193 kB/277 kB 70%] [Waiting for headers]
+                                                        
+Get:10 http://security.ubuntu.com/ubuntu cosmic-security/main Translation-en [58.7 kB]
+
+44% [8 Packages 193 kB/277 kB 70%] [10 Translation-en 5,112 B/58.7 kB 9%]
+44% [9 Packages store 0 B] [8 Packages 193 kB/277 kB 70%] [10 Translation-en 5,112 B/58.7 kB 9%]
+                                                                                                
+47% [8 Packages 255 kB/277 kB 92%] [10 Translation-en 41.5 kB/58.7 kB 71%]
+                                                                          
+48% [8 Packages 257 kB/277 kB 93%]
+                                  
+Get:11 http://security.ubuntu.com/ubuntu cosmic-security/main amd64 DEP-11 Metadata [204 B]
+
+48% [8 Packages 257 kB/277 kB 93%] [11 Components-amd64 204 B/204 B 100%]
+                                                                         
+48% [8 Packages 257 kB/277 kB 93%] [Waiting for headers]
+                                                        
+Get:12 http://security.ubuntu.com/ubuntu cosmic-security/universe amd64 Packages [66.0 kB]
+
+48% [10 Translation-en store 0 B] [8 Packages 257 kB/277 kB 93%] [12 Packages 445 B/66.0 kB 1%]
+                                                                                               
+48% [8 Packages 257 kB/277 kB 93%] [12 Packages 13.4 kB/66.0 kB 20%]
+48% [11 Components-amd64 store 0 B] [8 Packages 257 kB/277 kB 93%] [12 Packages 13.4 kB/66.0 kB 20%]
+                                                                                                    
+49% [8 Packages 257 kB/277 kB 93%] [12 Packages 13.4 kB/66.0 kB 20%]
+                                                                    
+50% [12 Packages 41.4 kB/66.0 kB 63%]
+                                     
+Get:13 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main i386 Packages [244 kB]
+
+50% [8 Packages store 0 B] [13 Packages 484 B/244 kB 0%] [12 Packages 41.4 kB/66.0 kB 63%]
+                                                                                          
+51% [13 Packages 25.7 kB/244 kB 11%] [12 Packages 49.2 kB/66.0 kB 75%]
+                                                                      
+52% [13 Packages 44.6 kB/244 kB 18%] [Waiting for headers]
+                                                          
+Get:14 http://security.ubuntu.com/ubuntu cosmic-security/universe i386 Packages [65.9 kB]
+
+52% [13 Packages 44.6 kB/244 kB 18%] [14 Packages 1,263 B/65.9 kB 2%]
+52% [12 Packages store 0 B] [13 Packages 44.6 kB/244 kB 18%] [14 Packages 1,263 B/65.9 kB 2%]
+                                                                                             
+53% [13 Packages 44.6 kB/244 kB 18%] [14 Packages 7,073 B/65.9 kB 11%]
+                                                                      
+57% [13 Packages 111 kB/244 kB 45%] [Waiting for headers]
+                                                         
+Get:15 http://security.ubuntu.com/ubuntu cosmic-security/universe Translation-en [39.3 kB]
+
+58% [13 Packages 124 kB/244 kB 51%] [15 Translation-en 24.8 kB/39.3 kB 63%]
+58% [14 Packages store 0 B] [13 Packages 124 kB/244 kB 51%] [15 Translation-en 24.8 kB/39.3 kB 63%]
+                                                                                                   
+58% [14 Packages store 0 B] [13 Packages 131 kB/244 kB 53%]
+                                                           
+Get:16 http://security.ubuntu.com/ubuntu cosmic-security/universe amd64 DEP-11 Metadata [11.6 kB]
+
+59% [14 Packages store 0 B] [13 Packages 144 kB/244 kB 59%] [16 Components-amd64 5,443 B/11.6 kB 47%]
+                                                                                                     
+59% [14 Packages store 0 B] [13 Packages 151 kB/244 kB 62%]
+                                                           
+Get:17 http://security.ubuntu.com/ubuntu cosmic-security/universe DEP-11 48x48 Icons [7,143 B]
+
+59% [14 Packages store 0 B] [13 Packages 151 kB/244 kB 62%] [17 icons-48x48 0 B/7,143 B 0%]
+                                                                                           
+60% [13 Packages 155 kB/244 kB 63%] [17 icons-48x48 1,425 B/7,143 B 20%]
+60% [15 Translation-en store 0 B] [13 Packages 162 kB/244 kB 66%] [17 icons-48x48 1,425 B/7,143 B 20%]
+                                                                                                      
+60% [13 Packages 164 kB/244 kB 67%] [17 icons-48x48 4,025 B/7,143 B 56%]
+60% [16 Components-amd64 store 0 B] [13 Packages 164 kB/244 kB 67%] [17 icons-48x48 4,025 B/7,143 B 56%]
+                                                                                                        
+60% [13 Packages 164 kB/244 kB 67%] [17 icons-48x48 4,025 B/7,143 B 56%]
+                                                                        
+61% [13 Packages 169 kB/244 kB 69%] [Waiting for headers]
+                                                         
+Get:18 http://security.ubuntu.com/ubuntu cosmic-security/universe DEP-11 64x64 Icons [17.6 kB]
+
+61% [13 Packages 169 kB/244 kB 69%] [18 icons-64x64 4,475 B/17.6 kB 25%]
+61% [17 icons-48x48 store 0 B] [13 Packages 169 kB/244 kB 69%] [18 icons-64x64 4,475 B/17.6 kB 25%]
+                                                                                                   
+61% [13 Packages 171 kB/244 kB 70%] [18 icons-64x64 4,475 B/17.6 kB 25%]
+                                                                        
+62% [13 Packages 178 kB/244 kB 73%] [Waiting for headers]
+                                                         
+Get:19 http://security.ubuntu.com/ubuntu cosmic-security/multiverse amd64 DEP-11 Metadata [2,464 B]
+
+62% [13 Packages 178 kB/244 kB 73%] [19 Components-amd64 2,263 B/2,464 B 92%]
+62% [18 icons-64x64 store 0 B] [13 Packages 178 kB/244 kB 73%] [19 Components-amd64 2,263 B/2,464 B 92%]
+                                                                                                        
+62% [13 Packages 178 kB/244 kB 73%] [19 Components-amd64 2,263 B/2,464 B 92%]
+                                                                             
+62% [13 Packages 186 kB/244 kB 76%]
+62% [19 Components-amd64 store 0 B] [13 Packages 186 kB/244 kB 76%]
+                                                                   
+62% [13 Packages 186 kB/244 kB 76%]
+                                   
+64% [Waiting for headers]
+                         
+Get:20 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main Translation-en [112 kB]
+
+64% [20 Translation-en 6,939 B/112 kB 6%]
+64% [13 Packages store 0 B] [20 Translation-en 6,939 B/112 kB 6%]
+                                                                 
+65% [20 Translation-en 24.2 kB/112 kB 22%]
+                                          
+68% [Waiting for headers]
+                         
+Get:21 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 DEP-11 Metadata [143 kB]
+
+68% [21 Components-amd64 1,640 B/143 kB 1%]
+68% [20 Translation-en store 0 B] [21 Components-amd64 1,640 B/143 kB 1%]
+                                                                         
+69% [21 Components-amd64 40.7 kB/143 kB 29%]
+                                            
+72% [Working]
+72% [21 Components-amd64 store 0 B]
+                                   
+Get:22 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main DEP-11 48x48 Icons [36.3 kB]
+
+72% [21 Components-amd64 store 0 B] [22 icons-48x48 0 B/36.3 kB 0%]
+                                                                   
+73% [21 Components-amd64 store 0 B] [Waiting for headers]
+                                                         
+Get:23 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main DEP-11 64x64 Icons [56.1 kB]
+
+73% [21 Components-amd64 store 0 B] [23 icons-64x64 330 B/56.1 kB 1%]
+                                                                     
+74% [23 icons-64x64 7,520 B/56.1 kB 13%]
+74% [22 icons-48x48 store 0 B] [23 icons-64x64 10.1 kB/56.1 kB 18%]
+                                                                   
+74% [23 icons-64x64 10.1 kB/56.1 kB 18%]
+                                        
+75% [Working]
+75% [23 icons-64x64 store 0 B] [Waiting for headers]
+                                                    
+Get:24 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe amd64 Packages [253 kB]
+
+75% [23 icons-64x64 store 0 B] [24 Packages 0 B/253 kB 0%]
+                                                          
+75% [24 Packages 1,241 B/253 kB 0%]
+80% [24 Packages 155 kB/253 kB 61%]
+                                   
+83% [Working]
+83% [24 Packages store 0 B] [Waiting for headers]
+                                                 
+Get:25 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe i386 Packages [249 kB]
+
+83% [24 Packages store 0 B] [25 Packages 0 B/249 kB 0%]
+85% [25 Packages 44.1 kB/249 kB 18%]                                                                                                                                                            341 kB/s 1s
+90% [25 Packages 205 kB/249 kB 82%]                                                                                                                                                             341 kB/s 0s
+91% [Working]                                                                                                                                                                                   341 kB/s 0s
+91% [25 Packages store 0 B]                                                                                                                                                                     341 kB/s 0s
+                                                                                                                                                                                                           
+Get:26 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe Translation-en [92.3 kB]
+
+91% [25 Packages store 0 B] [26 Translation-en 0 B/92.3 kB 0%]                                                                                                                                  341 kB/s 0s
+92% [26 Translation-en 33.8 kB/92.3 kB 37%]                                                                                                                                                     341 kB/s 0s
+94% [Working]                                                                                                                                                                                   341 kB/s 0s
+                                                                                                                                                                                                           
+Get:27 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe amd64 DEP-11 Metadata [57.9 kB]
+
+94% [27 Components-amd64 0 B/57.9 kB 0%]                                                                                                                                                        341 kB/s 0s
+94% [26 Translation-en store 0 B] [27 Components-amd64 0 B/57.9 kB 0%]                                                                                                                          341 kB/s 0s
+95% [27 Components-amd64 17.9 kB/57.9 kB 31%]                                                                                                                                                   341 kB/s 0s
+96% [Working]                                                                                                                                                                                   341 kB/s 0s
+                                                                                                                                                                                                           
+Get:28 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe DEP-11 48x48 Icons [35.3 kB]
+
+96% [28 icons-48x48 0 B/35.3 kB 0%]                                                                                                                                                             341 kB/s 0s
+96% [27 Components-amd64 store 0 B] [28 icons-48x48 0 B/35.3 kB 0%]                                                                                                                             341 kB/s 0s
+97% [28 icons-48x48 8,490 B/35.3 kB 24%]                                                                                                                                                        341 kB/s 0s
+97% [Working]                                                                                                                                                                                   341 kB/s 0s
+                                                                                                                                                                                                           
+Get:29 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe DEP-11 64x64 Icons [57.0 kB]
+
+97% [29 icons-64x64 0 B/57.0 kB 0%]                                                                                                                                                             341 kB/s 0s
+97% [28 icons-48x48 store 0 B] [29 icons-64x64 0 B/57.0 kB 0%]                                                                                                                                  341 kB/s 0s
+98% [29 icons-64x64 1,689 B/57.0 kB 3%]                                                                                                                                                         341 kB/s 0s
+99% [Working]                                                                                                                                                                                   341 kB/s 0s
+99% [29 icons-64x64 store 0 B] [Waiting for headers]                                                                                                                                            341 kB/s 0s
+                                                                                                                                                                                                           
+Get:30 http://in.archive.ubuntu.com/ubuntu cosmic-updates/multiverse amd64 DEP-11 Metadata [2,464 B]
+
+99% [29 icons-64x64 store 0 B] [30 Components-amd64 0 B/2,464 B 0%]                                                                                                                             341 kB/s 0s
+99% [29 icons-64x64 store 0 B]                                                                                                                                                                  341 kB/s 0s
+                                                                                                                                                                                                           
+Get:31 http://in.archive.ubuntu.com/ubuntu cosmic-backports/universe amd64 DEP-11 Metadata [7,356 B]
+
+99% [29 icons-64x64 store 0 B] [31 Components-amd64 0 B/7,356 B 0%]                                                                                                                             341 kB/s 0s
+100% [31 Components-amd64 3,594 B/7,356 B 49%]                                                                                                                                                  341 kB/s 0s
+100% [30 Components-amd64 store 0 B] [31 Components-amd64 3,594 B/7,356 B 49%]                                                                                                                  341 kB/s 0s
+100% [31 Components-amd64 3,594 B/7,356 B 49%]                                                                                                                                                  341 kB/s 0s
+100% [Working]                                                                                                                                                                                  341 kB/s 0s
+100% [31 Components-amd64 store 0 B]                                                                                                                                                            341 kB/s 0s
+100% [Working]                                                                                                                                                                                  341 kB/s 0s
+                                                                                                                                                                                                           
+Fetched 2,536 kB in 8s (334 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 35%
+
+Reading package lists... 41%
+
+Reading package lists... 41%
+
+Reading package lists... 62%
+
+Reading package lists... 72%
+
+Reading package lists... 72%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo apt-get upgrade
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+Calculating upgrade... 0%
+
+Calculating upgrade... 50%
+
+Calculating upgrade... Done
+
+The following packages were automatically installed and are no longer required:
+  libncursesw5 libtinfo5
+Use 'sudo apt autoremove' to remove them.
+The following packages have been kept back:
+  linux-generic linux-headers-generic linux-image-generic
+The following packages will be upgraded:
+  apport apport-gtk apt apt-utils avahi-autoipd avahi-daemon avahi-utils bind9-host busybox-initramfs busybox-static code command-not-found command-not-found-data cups cups-bsd cups-client cups-common
+  cups-core-drivers cups-daemon cups-ipp-utils cups-ppdc cups-server-common deja-dup desktop-file-utils dirmngr distro-info-data dnsutils e2fsprogs evince evince-common file firefox firefox-locale-en
+  fonts-opensymbol fwupd fwupd-signed gdm3 gedit gedit-common gettext gettext-base ghostscript ghostscript-x gir1.2-gdm-1.0 gir1.2-gtk-3.0 gir1.2-javascriptcoregtk-4.0 gir1.2-mutter-3 gir1.2-nm-1.0
+  gir1.2-packagekitglib-1.0 gir1.2-pango-1.0 gir1.2-polkit-1.0 gir1.2-snapd-1 gir1.2-totem-1.0 gir1.2-upowerglib-1.0 gir1.2-webkit2-4.0 gjs gkbd-capplet gnome-control-center gnome-control-center-data
+  gnome-control-center-faces gnome-initial-setup gnome-settings-daemon gnome-settings-daemon-schemas gnome-shell gnome-shell-common gnome-shell-extension-ubuntu-dock gnome-software gnome-software-common
+  gnome-software-plugin-snap gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm gpgv grub-common grub-pc grub-pc-bin grub2-common gstreamer1.0-packagekit
+  gtk-update-icon-cache gvfs gvfs-backends gvfs-bin gvfs-common gvfs-daemons gvfs-fuse gvfs-libs initramfs-tools initramfs-tools-bin initramfs-tools-core irqbalance kmod krb5-locales libapt-inst2.0
+  libapt-pkg5.0 libarchive13 libasound2 libasound2-data libavahi-client3 libavahi-common-data libavahi-common3 libavahi-core7 libavahi-glib1 libavahi-ui-gtk3-0 libbind9-160 libboost-date-time1.67.0
+  libboost-filesystem1.67.0 libboost-iostreams1.67.0 libboost-locale1.67.0 libboost-system1.67.0 libboost-thread1.67.0 libcaca0 libcairo-gobject2 libcairo2 libcom-err2 libcups2 libcupscgi1 libcupsimage2
+  libcupsmime1 libcupsppdc1 libcurl3-gnutls libdns-export1102 libdns1102 libdw1 libegl-mesa0 libegl1-mesa libelf1 libevdocument3-4 libevview3-3 libexiv2-14 libext2fs2 libfreerdp-client2-2 libfreerdp2-2
+  libfwupd2 libgail-3-0 libgbm1 libgd3 libgdm1 libgjs0g libgl1-mesa-dri libglapi-mesa libglx-mesa0 libgnomekbd-common libgnomekbd8 libgnutls30 libgs9 libgs9-common libgssapi-krb5-2 libgtk-3-0
+  libgtk-3-bin libgtk-3-common libirs160 libisc-export169 libisc169 libisccc160 libisccfg160 libjavascriptcoregtk-4.0-18 libk5crypto3 libkmod2 libkpathsea6 libkrb5-3 libkrb5support0 libldap-2.4-2
+  libldap-common libldb1 liblwres160 libmagic-mgc libmagic1 libmutter-3-0 libnautilus-extension1a libnm0 libnss-systemd libnss3 libntfs-3g88 libpackagekit-glib2-18 libpam-modules libpam-modules-bin
+  libpam-runtime libpam-systemd libpam0g libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpangoxft-1.0-0 libparted-fs-resize0 libparted2 libperl5.26 libpolkit-agent-1-0 libpolkit-backend-1-0
+  libpolkit-gobject-1-0 libpoppler-glib8 libpoppler79 libpulse-mainloop-glib0 libpulse0 libpulsedsp libreoffice-avmedia-backend-gstreamer libreoffice-base-core libreoffice-calc libreoffice-common
+  libreoffice-core libreoffice-draw libreoffice-gnome libreoffice-gtk3 libreoffice-help-en-us libreoffice-impress libreoffice-math libreoffice-ogltrans libreoffice-pdfimport libreoffice-style-breeze
+  libreoffice-style-colibre libreoffice-style-elementary libreoffice-style-tango libreoffice-writer libsmbclient libsnapd-glib1 libsnmp-base libsnmp30 libss2 libssh-4 libssl1.0.0 libssl1.1 libsynctex2
+  libsystemd0 libtiff5 libtotem0 libu2f-udev libudev1 libunistring2 libupower-glib3 libvncclient1 libwavpack1 libwayland-client0 libwayland-cursor0 libwayland-egl1 libwayland-server0 libwbclient0
+  libwebkit2gtk-4.0-37 libwinpr2-2 libxatracker2 linux-firmware linux-libc-dev mutter mutter-common nautilus nautilus-data netplan.io network-manager network-manager-config-connectivity-ubuntu ntfs-3g
+  openssh-client openssl packagekit packagekit-tools parted perl perl-base perl-modules-5.26 policykit-1 poppler-utils psmisc pulseaudio pulseaudio-module-bluetooth pulseaudio-utils python3-apport
+  python3-commandnotfound python3-distro-info python3-distupgrade python3-gdbm python3-problem-report python3-requests python3-software-properties python3-uno python3-update-manager samba-libs shotwell
+  shotwell-common snapd software-properties-common software-properties-gtk systemd systemd-sysv thermald thunderbird thunderbird-gnome-support thunderbird-locale-en thunderbird-locale-en-us totem
+  totem-common totem-plugins tzdata ubuntu-release-upgrader-core ubuntu-release-upgrader-gtk ubuntu-software udev ufw unattended-upgrades uno-libs3 update-manager update-manager-core upower ure
+  xdg-desktop-portal xkb-data xserver-common xserver-xephyr xserver-xorg-core xserver-xorg-legacy xwayland
+313 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+Need to get 429 MB/434 MB of archives.
+After this operation, 16.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+
+1% [Working]
+            
+Get:1 http://packages.microsoft.com/repos/vscode stable/main amd64 code amd64 1.33.0-1554390824 [47.4 MB]
+
+1% [Connecting to in.archive.ubuntu.com (91.189.88.162)] [1 code 0 B/47.4 MB 0%]
+                                                                                
+Get:2 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 perl-modules-5.26 all 5.26.2-7ubuntu0.1 [2,764 kB]
+
+                                                                                
+1% [2 perl-modules-5.26 844 kB/2,764 kB 31%] [1 code 81.8 kB/47.4 MB 0%]
+                                                                        
+1% [2 perl-modules-5.26 861 kB/2,764 kB 31%] [1 code 365 kB/47.4 MB 1%]
+2% [2 perl-modules-5.26 889 kB/2,764 kB 32%] [1 code 697 kB/47.4 MB 1%]
+2% [2 perl-modules-5.26 918 kB/2,764 kB 33%] [1 code 1,278 kB/47.4 MB 3%]
+2% [2 perl-modules-5.26 937 kB/2,764 kB 34%] [1 code 1,701 kB/47.4 MB 4%]
+2% [2 perl-modules-5.26 953 kB/2,764 kB 34%] [1 code 1,881 kB/47.4 MB 4%]
+2% [2 perl-modules-5.26 986 kB/2,764 kB 36%] [1 code 2,227 kB/47.4 MB 5%]
+2% [2 perl-modules-5.26 1,015 kB/2,764 kB 37%] [1 code 2,709 kB/47.4 MB 6%]
+2% [2 perl-modules-5.26 1,050 kB/2,764 kB 38%] [1 code 3,288 kB/47.4 MB 7%]
+2% [2 perl-modules-5.26 1,064 kB/2,764 kB 38%] [1 code 3,588 kB/47.4 MB 8%]
+2% [2 perl-modules-5.26 1,089 kB/2,764 kB 39%] [1 code 3,847 kB/47.4 MB 8%]
+2% [2 perl-modules-5.26 1,135 kB/2,764 kB 41%] [1 code 4,723 kB/47.4 MB 10%]                                                                                                            1,663 kB/s 4min 14s
+2% [2 perl-modules-5.26 1,167 kB/2,764 kB 42%] [1 code 5,644 kB/47.4 MB 12%]                                                                                                            1,663 kB/s 4min 13s
+3% [2 perl-modules-5.26 1,189 kB/2,764 kB 43%] [1 code 6,073 kB/47.4 MB 13%]                                                                                                            1,663 kB/s 4min 13s
+3% [2 perl-modules-5.26 1,219 kB/2,764 kB 44%] [1 code 6,577 kB/47.4 MB 14%]                                                                                                            1,663 kB/s 4min 13s
+3% [2 perl-modules-5.26 1,241 kB/2,764 kB 45%] [1 code 6,870 kB/47.4 MB 15%]                                                                                                            1,663 kB/s 4min 12s
+3% [2 perl-modules-5.26 1,275 kB/2,764 kB 46%] [1 code 7,524 kB/47.4 MB 16%]                                                                                                            1,663 kB/s 4min 12s
+3% [2 perl-modules-5.26 1,290 kB/2,764 kB 47%] [1 code 7,839 kB/47.4 MB 17%]                                                                                                            1,663 kB/s 4min 12s
+3% [2 perl-modules-5.26 1,333 kB/2,764 kB 48%] [1 code 8,558 kB/47.4 MB 18%]                                                                                                            1,663 kB/s 4min 11s
+3% [2 perl-modules-5.26 1,371 kB/2,764 kB 50%] [1 code 9,453 kB/47.4 MB 20%]                                                                                                            1,663 kB/s 4min 11s
+3% [2 perl-modules-5.26 1,402 kB/2,764 kB 51%] [1 code 10.2 MB/47.4 MB 22%]                                                                                                             1,663 kB/s 4min 10s
+4% [2 perl-modules-5.26 1,431 kB/2,764 kB 52%] [1 code 11.1 MB/47.4 MB 23%]                                                                                                             1,663 kB/s 4min 10s
+4% [2 perl-modules-5.26 1,436 kB/2,764 kB 52%] [1 code 11.9 MB/47.4 MB 25%]                                                                                                              1,663 kB/s 4min 9s
+4% [2 perl-modules-5.26 1,436 kB/2,764 kB 52%] [1 code 12.7 MB/47.4 MB 27%]                                                                                                              1,372 kB/s 5min 2s
+4% [2 perl-modules-5.26 1,470 kB/2,764 kB 53%] [1 code 13.4 MB/47.4 MB 28%]                                                                                                              1,372 kB/s 5min 1s
+4% [2 perl-modules-5.26 1,502 kB/2,764 kB 54%] [1 code 14.2 MB/47.4 MB 30%]                                                                                                              1,372 kB/s 5min 1s
+4% [2 perl-modules-5.26 1,538 kB/2,764 kB 56%] [1 code 15.0 MB/47.4 MB 32%]                                                                                                              1,372 kB/s 5min 0s
+4% [2 perl-modules-5.26 1,572 kB/2,764 kB 57%] [1 code 15.7 MB/47.4 MB 33%]                                                                                                              1,372 kB/s 5min 0s
+5% [2 perl-modules-5.26 1,594 kB/2,764 kB 58%] [1 code 16.4 MB/47.4 MB 35%]                                                                                                             1,372 kB/s 4min 59s
+5% [2 perl-modules-5.26 1,615 kB/2,764 kB 58%] [1 code 16.8 MB/47.4 MB 35%]                                                                                                             1,372 kB/s 4min 59s
+5% [2 perl-modules-5.26 1,636 kB/2,764 kB 59%] [1 code 17.3 MB/47.4 MB 37%]                                                                                                             1,372 kB/s 4min 58s
+5% [2 perl-modules-5.26 1,665 kB/2,764 kB 60%] [1 code 18.1 MB/47.4 MB 38%]                                                                                                             1,372 kB/s 4min 58s
+5% [2 perl-modules-5.26 1,697 kB/2,764 kB 61%] [1 code 19.0 MB/47.4 MB 40%]                                                                                                             1,372 kB/s 4min 57s
+5% [2 perl-modules-5.26 1,710 kB/2,764 kB 62%] [1 code 19.7 MB/47.4 MB 42%]                                                                                                             1,372 kB/s 4min 57s
+5% [2 perl-modules-5.26 1,733 kB/2,764 kB 63%] [1 code 20.3 MB/47.4 MB 43%]                                                                                                             1,372 kB/s 4min 56s
+5% [2 perl-modules-5.26 1,752 kB/2,764 kB 63%] [1 code 21.0 MB/47.4 MB 44%]                                                                                                             1,424 kB/s 4min 45s
+5% [2 perl-modules-5.26 1,752 kB/2,764 kB 63%] [1 code 21.0 MB/47.4 MB 44%]                                                                                                             1,424 kB/s 4min 45s
+5% [2 perl-modules-5.26 1,752 kB/2,764 kB 63%] [1 code 21.0 MB/47.4 MB 44%]                                                                                                             1,424 kB/s 4min 45s
+5% [2 perl-modules-5.26 1,752 kB/2,764 kB 63%] [1 code 21.0 MB/47.4 MB 44%]                                                                                                             1,424 kB/s 4min 45s
+6% [2 perl-modules-5.26 1,761 kB/2,764 kB 64%] [1 code 23.1 MB/47.4 MB 49%]                                                                                                             1,424 kB/s 4min 43s
+6% [2 perl-modules-5.26 1,761 kB/2,764 kB 64%] [1 code 23.5 MB/47.4 MB 50%]                                                                                                             1,424 kB/s 4min 43s
+6% [2 perl-modules-5.26 1,761 kB/2,764 kB 64%] [1 code 24.2 MB/47.4 MB 51%]                                                                                                             1,424 kB/s 4min 42s
+6% [2 perl-modules-5.26 1,761 kB/2,764 kB 64%] [1 code 24.5 MB/47.4 MB 52%]                                                                                                             1,424 kB/s 4min 42s
+6% [2 perl-modules-5.26 1,765 kB/2,764 kB 64%] [1 code 24.5 MB/47.4 MB 52%]                                                                                                             1,424 kB/s 4min 42s
+6% [2 perl-modules-5.26 1,765 kB/2,764 kB 64%] [1 code 26.2 MB/47.4 MB 55%]                                                                                                             1,424 kB/s 4min 41s
+7% [2 perl-modules-5.26 1,765 kB/2,764 kB 64%] [1 code 27.0 MB/47.4 MB 57%]                                                                                                             1,424 kB/s 4min 40s
+7% [2 perl-modules-5.26 1,765 kB/2,764 kB 64%] [1 code 27.1 MB/47.4 MB 57%]                                                                                                             1,424 kB/s 4min 40s
+7% [2 perl-modules-5.26 1,765 kB/2,764 kB 64%] [1 code 27.2 MB/47.4 MB 57%]                                                                                                             1,031 kB/s 6min 27s
+7% [2 perl-modules-5.26 1,771 kB/2,764 kB 64%] [1 code 28.9 MB/47.4 MB 61%]                                                                                                             1,031 kB/s 6min 26s
+7% [2 perl-modules-5.26 1,771 kB/2,764 kB 64%] [1 code 29.7 MB/47.4 MB 63%]                                                                                                             1,031 kB/s 6min 25s
+7% [2 perl-modules-5.26 1,771 kB/2,764 kB 64%] [1 code 30.6 MB/47.4 MB 65%]                                                                                                             1,031 kB/s 6min 24s
+7% [2 perl-modules-5.26 1,772 kB/2,764 kB 64%] [1 code 31.5 MB/47.4 MB 66%]                                                                                                             1,031 kB/s 6min 23s
+8% [2 perl-modules-5.26 1,774 kB/2,764 kB 64%] [1 code 32.3 MB/47.4 MB 68%]                                                                                                             1,031 kB/s 6min 23s
+8% [2 perl-modules-5.26 1,779 kB/2,764 kB 64%] [1 code 33.3 MB/47.4 MB 70%]                                                                                                             1,031 kB/s 6min 22s
+8% [2 perl-modules-5.26 1,839 kB/2,764 kB 67%] [1 code 34.2 MB/47.4 MB 72%]                                                                                                             1,031 kB/s 6min 21s
+8% [2 perl-modules-5.26 1,843 kB/2,764 kB 67%] [1 code 34.9 MB/47.4 MB 74%]                                                                                                             1,031 kB/s 6min 20s
+8% [2 perl-modules-5.26 1,871 kB/2,764 kB 68%] [1 code 35.7 MB/47.4 MB 75%]                                                                                                             1,031 kB/s 6min 19s
+8% [2 perl-modules-5.26 1,917 kB/2,764 kB 69%] [1 code 36.6 MB/47.4 MB 77%]                                                                                                             1,031 kB/s 6min 18s
+8% [2 perl-modules-5.26 1,957 kB/2,764 kB 71%] [1 code 37.4 MB/47.4 MB 79%]                                                                                                             1,031 kB/s 6min 17s
+9% [2 perl-modules-5.26 1,980 kB/2,764 kB 72%] [1 code 38.0 MB/47.4 MB 80%]                                                                                                             1,831 kB/s 3min 32s
+9% [2 perl-modules-5.26 2,031 kB/2,764 kB 73%] [1 code 38.9 MB/47.4 MB 82%]                                                                                                             1,831 kB/s 3min 31s
+9% [2 perl-modules-5.26 2,066 kB/2,764 kB 75%] [1 code 39.7 MB/47.4 MB 84%]                                                                                                             1,831 kB/s 3min 31s
+9% [2 perl-modules-5.26 2,108 kB/2,764 kB 76%] [1 code 40.3 MB/47.4 MB 85%]                                                                                                             1,831 kB/s 3min 31s
+9% [2 perl-modules-5.26 2,129 kB/2,764 kB 77%] [1 code 41.0 MB/47.4 MB 86%]                                                                                                             1,831 kB/s 3min 30s
+9% [2 perl-modules-5.26 2,178 kB/2,764 kB 79%] [1 code 41.7 MB/47.4 MB 88%]                                                                                                             1,831 kB/s 3min 30s
+9% [2 perl-modules-5.26 2,216 kB/2,764 kB 80%] [1 code 42.7 MB/47.4 MB 90%]                                                                                                             1,831 kB/s 3min 29s
+10% [2 perl-modules-5.26 2,234 kB/2,764 kB 81%] [1 code 43.0 MB/47.4 MB 91%]                                                                                                            1,831 kB/s 3min 29s
+10% [2 perl-modules-5.26 2,251 kB/2,764 kB 81%] [1 code 43.4 MB/47.4 MB 92%]                                                                                                            1,831 kB/s 3min 29s
+10% [2 perl-modules-5.26 2,303 kB/2,764 kB 83%] [1 code 44.2 MB/47.4 MB 93%]                                                                                                            1,831 kB/s 3min 28s
+10% [2 perl-modules-5.26 2,321 kB/2,764 kB 84%] [1 code 44.8 MB/47.4 MB 94%]                                                                                                            1,831 kB/s 3min 28s
+10% [2 perl-modules-5.26 2,344 kB/2,764 kB 85%] [1 code 45.4 MB/47.4 MB 96%]                                                                                                            1,831 kB/s 3min 28s
+10% [2 perl-modules-5.26 2,344 kB/2,764 kB 85%] [1 code 46.1 MB/47.4 MB 97%]                                                                                                            1,393 kB/s 4min 33s
+10% [2 perl-modules-5.26 2,350 kB/2,764 kB 85%] [1 code 46.4 MB/47.4 MB 98%]                                                                                                            1,393 kB/s 4min 32s
+10% [2 perl-modules-5.26 2,350 kB/2,764 kB 85%] [1 code 46.8 MB/47.4 MB 99%]                                                                                                            1,393 kB/s 4min 32s
+10% [2 perl-modules-5.26 2,367 kB/2,764 kB 86%] [1 code 47.4 MB/47.4 MB 100%]                                                                                                           1,393 kB/s 4min 32s
+10% [2 perl-modules-5.26 2,380 kB/2,764 kB 86%]                                                                                                                                         1,393 kB/s 4min 32s
+10% [2 perl-modules-5.26 2,439 kB/2,764 kB 88%]                                                                                                                                         1,393 kB/s 4min 32s
+10% [2 perl-modules-5.26 2,491 kB/2,764 kB 90%]                                                                                                                                         1,393 kB/s 4min 32s
+10% [2 perl-modules-5.26 2,547 kB/2,764 kB 92%]                                                                                                                                         1,393 kB/s 4min 32s
+10% [2 perl-modules-5.26 2,612 kB/2,764 kB 95%]                                                                                                                                         1,393 kB/s 4min 31s
+11% [2 perl-modules-5.26 2,689 kB/2,764 kB 97%]                                                                                                                                         1,393 kB/s 4min 31s
+11% [Working]                                                                                                                                                                           1,393 kB/s 4min 31s
+                                                                                                                                                                                                           
+Get:3 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libgssapi-krb5-2 amd64 1.16-2ubuntu1.1 [122 kB]
+
+11% [3 libgssapi-krb5-2 7,517 B/122 kB 6%]                                                                                                                                              1,393 kB/s 4min 31s
+11% [Working]                                                                                                                                                                           1,393 kB/s 4min 31s
+                                                                                                                                                                                                           
+Get:4 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libkrb5-3 amd64 1.16-2ubuntu1.1 [280 kB]
+
+11% [4 libkrb5-3 7,517 B/280 kB 3%]                                                                                                                                                     1,393 kB/s 4min 31s
+11% [4 libkrb5-3 126 kB/280 kB 45%]                                                                                                                                                     1,393 kB/s 4min 31s
+11% [4 libkrb5-3 256 kB/280 kB 92%]                                                                                                                                                      473 kB/s 13min 19s
+11% [Waiting for headers]                                                                                                                                                                473 kB/s 13min 19s
+                                                                                                                                                                                                           
+Get:5 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libkrb5support0 amd64 1.16-2ubuntu1.1 [31.0 kB]
+
+11% [5 libkrb5support0 4,261 B/31.0 kB 14%]                                                                                                                                              473 kB/s 13min 19s
+11% [Waiting for headers]                                                                                                                                                                473 kB/s 13min 19s
+                                                                                                                                                                                                           
+Get:6 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libcom-err2 amd64 1.44.4-2ubuntu0.2 [8,984 B]
+
+11% [6 libcom-err2 1,601 B/8,984 B 18%]                                                                                                                                                  473 kB/s 13min 19s
+11% [Working]                                                                                                                                                                            473 kB/s 13min 19s
+                                                                                                                                                                                                           
+Get:7 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libssl1.0.0 amd64 1.0.2n-1ubuntu6.2 [1,088 kB]
+
+11% [7 libssl1.0.0 132 B/1,088 kB 0%]                                                                                                                                                    473 kB/s 13min 19s
+11% [7 libssl1.0.0 152 kB/1,088 kB 14%]                                                                                                                                                  473 kB/s 13min 19s
+11% [7 libssl1.0.0 284 kB/1,088 kB 26%]                                                                                                                                                  473 kB/s 13min 19s
+11% [7 libssl1.0.0 443 kB/1,088 kB 41%]                                                                                                                                                  473 kB/s 13min 18s
+11% [7 libssl1.0.0 607 kB/1,088 kB 56%]                                                                                                                                                  473 kB/s 13min 18s
+11% [7 libssl1.0.0 765 kB/1,088 kB 70%]                                                                                                                                                  473 kB/s 13min 18s
+11% [7 libssl1.0.0 921 kB/1,088 kB 85%]                                                                                                                                                  473 kB/s 13min 17s
+11% [7 libssl1.0.0 1,080 kB/1,088 kB 99%]                                                                                                                                                473 kB/s 13min 17s
+11% [Waiting for headers]                                                                                                                                                                473 kB/s 13min 17s
+                                                                                                                                                                                                           
+Get:8 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 openssh-client amd64 1:7.7p1-4ubuntu0.3 [627 kB]
+
+11% [8 openssh-client 1,009 B/627 kB 0%]                                                                                                                                                 473 kB/s 13min 17s
+11% [8 openssh-client 152 kB/627 kB 24%]                                                                                                                                                 473 kB/s 13min 17s
+11% [8 openssh-client 289 kB/627 kB 46%]                                                                                                                                                 473 kB/s 13min 16s
+11% [8 openssh-client 440 kB/627 kB 70%]                                                                                                                                                 473 kB/s 13min 16s
+11% [8 openssh-client 576 kB/627 kB 92%]                                                                                                                                                 473 kB/s 13min 16s
+11% [Working]                                                                                                                                                                            473 kB/s 13min 16s
+                                                                                                                                                                                                           
+Get:9 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 xserver-common all 2:1.20.1-3ubuntu2.1 [26.9 kB]
+
+11% [9 xserver-common 0 B/26.9 kB 0%]                                                                                                                                                    473 kB/s 13min 16s
+11% [Working]                                                                                                                                                                            296 kB/s 21min 10s
+                                                                                                                                                                                                           
+Get:10 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 xserver-xorg-legacy amd64 2:1.20.1-3ubuntu2.1 [32.4 kB]
+
+11% [10 xserver-xorg-legacy 0 B/32.4 kB 0%]                                                                                                                                              296 kB/s 21min 10s
+12% [Working]                                                                                                                                                                            296 kB/s 21min 10s
+                                                                                                                                                                                                           
+Get:11 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libgdm1 amd64 3.30.1-1ubuntu5.1 [51.5 kB]
+
+12% [11 libgdm1 0 B/51.5 kB 0%]                                                                                                                                                          296 kB/s 21min 10s
+12% [Working]                                                                                                                                                                            296 kB/s 21min 10s
+                                                                                                                                                                                                           
+Get:12 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 gir1.2-gdm-1.0 amd64 3.30.1-1ubuntu5.1 [9,564 B]
+
+12% [12 gir1.2-gdm-1.0 0 B/9,564 B 0%]                                                                                                                                                   296 kB/s 21min 10s
+12% [Working]                                                                                                                                                                            296 kB/s 21min 10s
+                                                                                                                                                                                                           
+Get:13 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libpolkit-backend-1-0 amd64 0.105-21ubuntu0.4 [36.6 kB]
+
+12% [13 libpolkit-backend-1-0 0 B/36.6 kB 0%]                                                                                                                                            296 kB/s 21min 10s
+12% [Working]                                                                                                                                                                            296 kB/s 21min 10s
+                                                                                                                                                                                                           
+Get:14 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 gir1.2-polkit-1.0 amd64 0.105-21ubuntu0.4 [7,344 B]
+
+12% [14 gir1.2-polkit-1.0 0 B/7,344 B 0%]                                                                                                                                                296 kB/s 21min 10s
+12% [Working]                                                                                                                                                                            296 kB/s 21min 10s
+                                                                                                                                                                                                           
+Get:15 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libpolkit-gobject-1-0 amd64 0.105-21ubuntu0.4 [37.3 kB]
+
+12% [15 libpolkit-gobject-1-0 0 B/37.3 kB 0%]                                                                                                                                            296 kB/s 21min 10s
+12% [Working]                                                                                                                                                                            296 kB/s 21min 10s
+                                                                                                                                                                                                           
+Get:16 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libpolkit-agent-1-0 amd64 0.105-21ubuntu0.4 [15.1 kB]
+
+12% [16 libpolkit-agent-1-0 0 B/15.1 kB 0%]                                                                                                                                              296 kB/s 21min 10s
+12% [Working]                                                                                                                                                                            296 kB/s 21min 10s
+                                                                                                                                                                                                           
+Get:17 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 policykit-1 amd64 0.105-21ubuntu0.4 [53.7 kB]
+
+12% [17 policykit-1 0 B/53.7 kB 0%]                                                                                                                                                      296 kB/s 21min 10s
+12% [Working]                                                                                                                                                                             296 kB/s 21min 9s
+                                                                                                                                                                                                           
+Get:18 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 gnome-settings-daemon-schemas all 3.30.1.2-1ubuntu3.1 [14.9 kB]
+
+12% [18 gnome-settings-daemon-schemas 0 B/14.9 kB 0%]                                                                                                                                     296 kB/s 21min 9s
+12% [Working]                                                                                                                                                                             296 kB/s 21min 9s
+                                                                                                                                                                                                           
+Get:19 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 gnome-settings-daemon amd64 3.30.1.2-1ubuntu3.1 [321 kB]
+
+12% [19 gnome-settings-daemon 0 B/321 kB 0%]                                                                                                                                              296 kB/s 21min 9s
+12% [19 gnome-settings-daemon 154 kB/321 kB 48%]                                                                                                                                          296 kB/s 21min 9s
+12% [19 gnome-settings-daemon 319 kB/321 kB 99%]                                                                                                                                          296 kB/s 21min 8s
+12% [Waiting for headers]                                                                                                                                                                 296 kB/s 21min 8s
+                                                                                                                                                                                                           
+Get:20 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 gnome-shell-common all 3.30.2-0ubuntu1.18.10.1 [184 kB]
+
+12% [20 gnome-shell-common 2,149 B/184 kB 1%]                                                                                                                                             296 kB/s 21min 8s
+12% [20 gnome-shell-common 161 kB/184 kB 87%]                                                                                                                                             296 kB/s 21min 8s
+12% [Working]                                                                                                                                                                             296 kB/s 21min 8s
+                                                                                                                                                                                                           
+Get:21 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libgjs0g amd64 1.54.3-1~ubuntu18.10.1 [261 kB]
+
+12% [21 libgjs0g 0 B/261 kB 0%]                                                                                                                                                           296 kB/s 21min 8s
+12% [21 libgjs0g 170 kB/261 kB 65%]                                                                                                                                                       296 kB/s 21min 7s
+12% [Waiting for headers]                                                                                                                                                                 296 kB/s 21min 7s
+                                                                                                                                                                                                           
+Get:22 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 mutter-common all 3.30.2-1~ubuntu18.10.4 [12.4 kB]
+
+12% [22 mutter-common 2,529 B/12.4 kB 20%]                                                                                                                                                296 kB/s 21min 7s
+12% [Working]                                                                                                                                                                             296 kB/s 21min 7s
+                                                                                                                                                                                                           
+Get:23 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 gir1.2-mutter-3 amd64 3.30.2-1~ubuntu18.10.4 [139 kB]
+
+12% [23 gir1.2-mutter-3 0 B/139 kB 0%]                                                                                                                                                    296 kB/s 21min 7s
+13% [Working]                                                                                                                                                                             296 kB/s 21min 6s
+                                                                                                                                                                                                           
+Get:24 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libmutter-3-0 amd64 3.30.2-1~ubuntu18.10.4 [1,225 kB]
+
+13% [24 libmutter-3-0 2,843 B/1,225 kB 0%]                                                                                                                                                296 kB/s 21min 6s
+13% [24 libmutter-3-0 158 kB/1,225 kB 13%]                                                                                                                                                296 kB/s 21min 6s
+13% [24 libmutter-3-0 295 kB/1,225 kB 24%]                                                                                                                                                296 kB/s 21min 5s
+13% [24 libmutter-3-0 466 kB/1,225 kB 38%]                                                                                                                                                296 kB/s 21min 5s
+13% [24 libmutter-3-0 622 kB/1,225 kB 51%]                                                                                                                                                296 kB/s 21min 4s
+13% [24 libmutter-3-0 781 kB/1,225 kB 64%]                                                                                                                                               309 kB/s 20min 12s
+13% [24 libmutter-3-0 942 kB/1,225 kB 77%]                                                                                                                                               309 kB/s 20min 12s
+13% [24 libmutter-3-0 1,096 kB/1,225 kB 89%]                                                                                                                                             309 kB/s 20min 11s
+13% [Waiting for headers]                                                                                                                                                                309 kB/s 20min 11s
+                                                                                                                                                                                                           
+Get:25 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 gjs amd64 1.54.3-1~ubuntu18.10.1 [34.0 kB]
+
+13% [25 gjs 9,068 B/34.0 kB 27%]                                                                                                                                                         309 kB/s 20min 11s
+13% [Waiting for headers]                                                                                                                                                                309 kB/s 20min 11s
+                                                                                                                                                                                                           
+Get:26 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 gnome-shell amd64 3.30.2-0ubuntu1.18.10.1 [674 kB]
+
+13% [26 gnome-shell 143 B/674 kB 0%]                                                                                                                                                     309 kB/s 20min 11s
+13% [26 gnome-shell 152 kB/674 kB 23%]                                                                                                                                                   309 kB/s 20min 10s
+13% [26 gnome-shell 304 kB/674 kB 45%]                                                                                                                                                   309 kB/s 20min 10s
+13% [26 gnome-shell 464 kB/674 kB 69%]                                                                                                                                                    309 kB/s 20min 9s
+13% [26 gnome-shell 609 kB/674 kB 90%]                                                                                                                                                    309 kB/s 20min 9s
+13% [Working]                                                                                                                                                                             309 kB/s 20min 8s
+                                                                                                                                                                                                           
+Get:27 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 gdm3 amd64 3.30.1-1ubuntu5.1 [273 kB]
+
+13% [27 gdm3 0 B/273 kB 0%]                                                                                                                                                               309 kB/s 20min 8s
+13% [27 gdm3 156 kB/273 kB 57%]                                                                                                                                                           309 kB/s 20min 8s
+13% [27 gdm3 236 kB/273 kB 86%]                                                                                                                                                           309 kB/s 20min 8s
+13% [27 gdm3 240 kB/273 kB 88%]                                                                                                                                                           309 kB/s 20min 8s
+13% [Working]                                                                                                                                                                             309 kB/s 20min 7s
+                                                                                                                                                                                                           
+Get:28 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 xserver-xorg-core amd64 2:1.20.1-3ubuntu2.1 [1,332 kB]
+
+13% [28 xserver-xorg-core 0 B/1,332 kB 0%]                                                                                                                                                309 kB/s 20min 7s
+13% [28 xserver-xorg-core 137 kB/1,332 kB 10%]                                                                                                                                            309 kB/s 20min 7s
+13% [28 xserver-xorg-core 287 kB/1,332 kB 22%]                                                                                                                                            270 kB/s 23min 0s
+13% [28 xserver-xorg-core 447 kB/1,332 kB 34%]                                                                                                                                           270 kB/s 22min 59s
+13% [28 xserver-xorg-core 603 kB/1,332 kB 45%]                                                                                                                                           270 kB/s 22min 58s
+13% [28 xserver-xorg-core 725 kB/1,332 kB 54%]                                                                                                                                           270 kB/s 22min 58s
+13% [28 xserver-xorg-core 879 kB/1,332 kB 66%]                                                                                                                                           270 kB/s 22min 57s
+13% [28 xserver-xorg-core 1,026 kB/1,332 kB 77%]                                                                                                                                         270 kB/s 22min 57s
+13% [28 xserver-xorg-core 1,194 kB/1,332 kB 90%]                                                                                                                                         270 kB/s 22min 56s
+14% [Working]                                                                                                                                                                            270 kB/s 22min 56s
+                                                                                                                                                                                                           
+Get:29 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libudev1 amd64 239-7ubuntu10.11 [54.0 kB]
+
+14% [29 libudev1 0 B/54.0 kB 0%]                                                                                                                                                         270 kB/s 22min 56s
+14% [Waiting for headers]                                                                                                                                                                270 kB/s 22min 55s
+                                                                                                                                                                                                           
+Get:30 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 udev amd64 239-7ubuntu10.11 [1,129 kB]
+
+14% [30 udev 923 B/1,129 kB 0%]                                                                                                                                                          270 kB/s 22min 55s
+14% [30 udev 160 kB/1,129 kB 14%]                                                                                                                                                        270 kB/s 22min 55s
+14% [30 udev 318 kB/1,129 kB 28%]                                                                                                                                                        270 kB/s 22min 54s
+14% [30 udev 462 kB/1,129 kB 41%]                                                                                                                                                        270 kB/s 22min 54s
+14% [30 udev 637 kB/1,129 kB 56%]                                                                                                                                                        270 kB/s 22min 53s
+14% [30 udev 773 kB/1,129 kB 69%]                                                                                                                                                        304 kB/s 20min 18s
+14% [30 udev 911 kB/1,129 kB 81%]                                                                                                                                                        304 kB/s 20min 18s
+14% [30 udev 1,065 kB/1,129 kB 94%]                                                                                                                                                      304 kB/s 20min 17s
+14% [Working]                                                                                                                                                                            304 kB/s 20min 17s
+                                                                                                                                                                                                           
+Get:31 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 systemd-sysv amd64 239-7ubuntu10.11 [9,400 B]
+
+14% [31 systemd-sysv 0 B/9,400 B 0%]                                                                                                                                                     304 kB/s 20min 17s
+                                                                                                                                                                                                           
+Get:32 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libpam-systemd amd64 239-7ubuntu10.11 [113 kB]
+
+14% [32 libpam-systemd 2,464 B/113 kB 2%]                                                                                                                                                304 kB/s 20min 17s
+14% [Working]                                                                                                                                                                            304 kB/s 20min 17s
+                                                                                                                                                                                                           
+Get:33 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libnss-systemd amd64 239-7ubuntu10.11 [110 kB]
+
+14% [33 libnss-systemd 3,209 B/110 kB 3%]                                                                                                                                                304 kB/s 20min 17s
+14% [Waiting for headers]                                                                                                                                                                304 kB/s 20min 16s
+                                                                                                                                                                                                           
+Get:34 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 systemd amd64 239-7ubuntu10.11 [2,974 kB]
+
+14% [34 systemd 2,936 B/2,974 kB 0%]                                                                                                                                                     304 kB/s 20min 16s
+14% [34 systemd 168 kB/2,974 kB 6%]                                                                                                                                                      304 kB/s 20min 16s
+14% [34 systemd 315 kB/2,974 kB 11%]                                                                                                                                                     304 kB/s 20min 15s
+14% [34 systemd 450 kB/2,974 kB 15%]                                                                                                                                                     304 kB/s 20min 15s
+14% [34 systemd 615 kB/2,974 kB 21%]                                                                                                                                                     304 kB/s 20min 14s
+14% [34 systemd 767 kB/2,974 kB 26%]                                                                                                                                                     304 kB/s 20min 14s
+14% [34 systemd 930 kB/2,974 kB 31%]                                                                                                                                                     304 kB/s 20min 13s
+14% [34 systemd 1,076 kB/2,974 kB 36%]                                                                                                                                                   304 kB/s 20min 13s
+14% [34 systemd 1,214 kB/2,974 kB 41%]                                                                                                                                                   299 kB/s 20min 35s
+14% [34 systemd 1,378 kB/2,974 kB 46%]                                                                                                                                                   299 kB/s 20min 35s
+14% [34 systemd 1,537 kB/2,974 kB 52%]                                                                                                                                                   299 kB/s 20min 34s
+14% [34 systemd 1,668 kB/2,974 kB 56%]                                                                                                                                                   299 kB/s 20min 34s
+14% [34 systemd 1,733 kB/2,974 kB 58%]                                                                                                                                                   299 kB/s 20min 33s
+14% [34 systemd 1,802 kB/2,974 kB 61%]                                                                                                                                                   299 kB/s 20min 33s
+14% [34 systemd 1,949 kB/2,974 kB 66%]                                                                                                                                                   299 kB/s 20min 33s
+14% [34 systemd 2,109 kB/2,974 kB 71%]                                                                                                                                                   299 kB/s 20min 32s
+15% [34 systemd 2,260 kB/2,974 kB 76%]                                                                                                                                                   299 kB/s 20min 32s
+15% [34 systemd 2,416 kB/2,974 kB 81%]                                                                                                                                                   299 kB/s 20min 31s
+15% [34 systemd 2,575 kB/2,974 kB 87%]                                                                                                                                                   299 kB/s 20min 31s
+15% [34 systemd 2,719 kB/2,974 kB 91%]                                                                                                                                                   299 kB/s 20min 30s
+15% [34 systemd 2,869 kB/2,974 kB 96%]                                                                                                                                                   275 kB/s 22min 18s
+15% [Working]                                                                                                                                                                            275 kB/s 22min 17s
+                                                                                                                                                                                                           
+Get:35 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libsystemd0 amd64 239-7ubuntu10.11 [211 kB]
+
+15% [35 libsystemd0 0 B/211 kB 0%]                                                                                                                                                       275 kB/s 22min 17s
+15% [35 libsystemd0 172 kB/211 kB 82%]                                                                                                                                                   275 kB/s 22min 16s
+15% [Waiting for headers]                                                                                                                                                                275 kB/s 22min 16s
+                                                                                                                                                                                                           
+Get:36 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 xkb-data all 2.23.1-1ubuntu1.18.10.1 [325 kB]
+
+15% [36 xkb-data 18 B/325 kB 0%]                                                                                                                                                         275 kB/s 22min 16s
+15% [36 xkb-data 166 kB/325 kB 51%]                                                                                                                                                      275 kB/s 22min 16s
+15% [36 xkb-data 317 kB/325 kB 98%]                                                                                                                                                      275 kB/s 22min 15s
+15% [Working]                                                                                                                                                                            275 kB/s 22min 15s
+                                                                                                                                                                                                           
+Get:37 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libpam0g amd64 1.1.8-3.6ubuntu3 [55.1 kB]
+
+15% [37 libpam0g 0 B/55.1 kB 0%]                                                                                                                                                         275 kB/s 22min 15s
+15% [Working]                                                                                                                                                                            275 kB/s 22min 15s
+                                                                                                                                                                                                           
+Get:38 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libpam-modules-bin amd64 1.1.8-3.6ubuntu3 [37.1 kB]
+
+15% [38 libpam-modules-bin 0 B/37.1 kB 0%]                                                                                                                                               275 kB/s 22min 15s
+15% [Working]                                                                                                                                                                            275 kB/s 22min 15s
+                                                                                                                                                                                                           
+Get:39 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libpam-modules amd64 1.1.8-3.6ubuntu3 [241 kB]
+
+15% [39 libpam-modules 0 B/241 kB 0%]                                                                                                                                                    275 kB/s 22min 15s
+15% [39 libpam-modules 159 kB/241 kB 66%]                                                                                                                                                275 kB/s 22min 14s
+15% [Working]                                                                                                                                                                            275 kB/s 22min 14s
+                                                                                                                                                                                                           
+Get:40 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libpam-runtime all 1.1.8-3.6ubuntu3 [37.1 kB]
+
+15% [40 libpam-runtime 9,658 B/37.1 kB 26%]                                                                                                                                              275 kB/s 22min 14s
+15% [Working]                                                                                                                                                                            275 kB/s 22min 14s
+                                                                                                                                                                                                           
+Get:41 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libgtk-3-common all 3.24.4-0ubuntu1 [232 kB]
+
+15% [41 libgtk-3-common 0 B/232 kB 0%]                                                                                                                                                   275 kB/s 22min 14s
+15% [41 libgtk-3-common 159 kB/232 kB 69%]                                                                                                                                               275 kB/s 22min 13s
+15% [Working]                                                                                                                                                                            275 kB/s 22min 13s
+                                                                                                                                                                                                           
+Get:42 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libpango-1.0-0 amd64 1.42.4-3ubuntu1 [155 kB]
+
+15% [42 libpango-1.0-0 452 B/155 kB 0%]                                                                                                                                                  275 kB/s 22min 13s
+15% [42 libpango-1.0-0 148 kB/155 kB 96%]                                                                                                                                                275 kB/s 22min 12s
+15% [Working]                                                                                                                                                                            275 kB/s 22min 12s
+                                                                                                                                                                                                           
+Get:43 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libgail-3-0 amd64 3.24.4-0ubuntu1 [21.5 kB]
+
+15% [43 libgail-3-0 0 B/21.5 kB 0%]                                                                                                                                                      275 kB/s 22min 12s
+16% [Working]                                                                                                                                                                            275 kB/s 22min 12s
+                                                                                                                                                                                                           
+Get:44 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libcairo2 amd64 1.15.12-1ubuntu0.1 [583 kB]
+
+16% [44 libcairo2 0 B/583 kB 0%]                                                                                                                                                         275 kB/s 22min 12s
+16% [44 libcairo2 154 kB/583 kB 26%]                                                                                                                                                     275 kB/s 22min 12s
+16% [44 libcairo2 272 kB/583 kB 47%]                                                                                                                                                     275 kB/s 22min 11s
+16% [44 libcairo2 431 kB/583 kB 74%]                                                                                                                                                      304 kB/s 20min 1s
+16% [44 libcairo2 576 kB/583 kB 99%]                                                                                                                                                      304 kB/s 20min 1s
+16% [Working]                                                                                                                                                                             304 kB/s 20min 1s
+                                                                                                                                                                                                           
+Get:45 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libcairo-gobject2 amd64 1.15.12-1ubuntu0.1 [17.3 kB]
+
+16% [45 libcairo-gobject2 0 B/17.3 kB 0%]                                                                                                                                                 304 kB/s 20min 1s
+16% [Working]                                                                                                                                                                             304 kB/s 20min 0s
+                                                                                                                                                                                                           
+Get:46 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libcupsppdc1 amd64 2.2.8-5ubuntu1.2 [46.3 kB]
+
+16% [46 libcupsppdc1 0 B/46.3 kB 0%]                                                                                                                                                      304 kB/s 20min 0s
+16% [Working]                                                                                                                                                                             304 kB/s 20min 0s
+                                                                                                                                                                                                           
+Get:47 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libcupsmime1 amd64 2.2.8-5ubuntu1.2 [13.2 kB]
+
+16% [47 libcupsmime1 0 B/13.2 kB 0%]                                                                                                                                                      304 kB/s 20min 0s
+16% [Working]                                                                                                                                                                             304 kB/s 20min 0s
+                                                                                                                                                                                                           
+Get:48 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libcupsimage2 amd64 2.2.8-5ubuntu1.2 [18.4 kB]
+
+16% [48 libcupsimage2 0 B/18.4 kB 0%]                                                                                                                                                     304 kB/s 20min 0s
+16% [Working]                                                                                                                                                                             304 kB/s 20min 0s
+                                                                                                                                                                                                           
+Get:49 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libcupscgi1 amd64 2.2.8-5ubuntu1.2 [27.7 kB]
+
+16% [49 libcupscgi1 0 B/27.7 kB 0%]                                                                                                                                                       304 kB/s 20min 0s
+16% [Working]                                                                                                                                                                             304 kB/s 20min 0s
+                                                                                                                                                                                                           
+Get:50 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libavahi-common-data amd64 0.7-4ubuntu2.1 [21.6 kB]
+
+16% [50 libavahi-common-data 0 B/21.6 kB 0%]                                                                                                                                              304 kB/s 20min 0s
+16% [Working]                                                                                                                                                                             304 kB/s 20min 0s
+                                                                                                                                                                                                           
+Get:51 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libavahi-common3 amd64 0.7-4ubuntu2.1 [21.6 kB]
+
+16% [51 libavahi-common3 0 B/21.6 kB 0%]                                                                                                                                                  304 kB/s 20min 0s
+16% [Working]                                                                                                                                                                             304 kB/s 20min 0s
+                                                                                                                                                                                                           
+Get:52 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libavahi-client3 amd64 0.7-4ubuntu2.1 [25.3 kB]
+
+16% [52 libavahi-client3 0 B/25.3 kB 0%]                                                                                                                                                  304 kB/s 20min 0s
+16% [Working]                                                                                                                                                                             304 kB/s 20min 0s
+                                                                                                                                                                                                           
+Get:53 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libunistring2 amd64 0.9.10-1ubuntu1.18.10.1 [378 kB]
+
+16% [53 libunistring2 0 B/378 kB 0%]                                                                                                                                                      304 kB/s 20min 0s
+16% [53 libunistring2 149 kB/378 kB 39%]                                                                                                                                                 304 kB/s 19min 59s
+16% [53 libunistring2 316 kB/378 kB 84%]                                                                                                                                                 304 kB/s 19min 59s
+16% [Waiting for headers]                                                                                                                                                                304 kB/s 19min 59s
+                                                                                                                                                                                                           
+Get:54 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libgnutls30 amd64 3.6.4-2ubuntu1.1 [746 kB]
+
+16% [54 libgnutls30 1,844 B/746 kB 0%]                                                                                                                                                   304 kB/s 19min 59s
+16% [54 libgnutls30 151 kB/746 kB 20%]                                                                                                                                                   304 kB/s 19min 58s
+16% [54 libgnutls30 293 kB/746 kB 39%]                                                                                                                                                   304 kB/s 19min 58s
+16% [54 libgnutls30 454 kB/746 kB 61%]                                                                                                                                                   304 kB/s 19min 57s
+16% [54 libgnutls30 592 kB/746 kB 79%]                                                                                                                                                   304 kB/s 19min 57s
+17% [Working]                                                                                                                                                                            304 kB/s 19min 56s
+                                                                                                                                                                                                           
+Get:55 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 cups-ipp-utils amd64 2.2.8-5ubuntu1.2 [212 kB]
+
+17% [55 cups-ipp-utils 0 B/212 kB 0%]                                                                                                                                                    304 kB/s 19min 56s
+17% [55 cups-ipp-utils 161 kB/212 kB 76%]                                                                                                                                                304 kB/s 19min 56s
+17% [55 cups-ipp-utils 166 kB/212 kB 78%]                                                                                                                                                304 kB/s 19min 56s
+17% [Working]                                                                                                                                                                             274 kB/s 22min 6s
+                                                                                                                                                                                                           
+Get:56 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 cups-daemon amd64 2.2.8-5ubuntu1.2 [308 kB]
+
+17% [56 cups-daemon 0 B/308 kB 0%]                                                                                                                                                        274 kB/s 22min 6s
+17% [56 cups-daemon 138 kB/308 kB 45%]                                                                                                                                                    274 kB/s 22min 5s
+17% [56 cups-daemon 285 kB/308 kB 92%]                                                                                                                                                    274 kB/s 22min 5s
+17% [Waiting for headers]                                                                                                                                                                 274 kB/s 22min 5s
+                                                                                                                                                                                                           
+Get:57 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 cups-core-drivers amd64 2.2.8-5ubuntu1.2 [28.0 kB]
+
+17% [57 cups-core-drivers 1,877 B/28.0 kB 7%]                                                                                                                                             274 kB/s 22min 5s
+17% [Working]                                                                                                                                                                             274 kB/s 22min 5s
+                                                                                                                                                                                                           
+Get:58 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 cups-server-common all 2.2.8-5ubuntu1.2 [415 kB]
+
+17% [58 cups-server-common 0 B/415 kB 0%]                                                                                                                                                 274 kB/s 22min 5s
+17% [58 cups-server-common 158 kB/415 kB 38%]                                                                                                                                             274 kB/s 22min 4s
+17% [58 cups-server-common 322 kB/415 kB 78%]                                                                                                                                             274 kB/s 22min 3s
+17% [Working]                                                                                                                                                                             274 kB/s 22min 3s
+                                                                                                                                                                                                           
+Get:59 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 cups-common all 2.2.8-5ubuntu1.2 [206 kB]
+
+17% [59 cups-common 2,651 B/206 kB 1%]                                                                                                                                                    274 kB/s 22min 3s
+17% [59 cups-common 166 kB/206 kB 81%]                                                                                                                                                    274 kB/s 22min 2s
+17% [Working]                                                                                                                                                                             274 kB/s 22min 2s
+                                                                                                                                                                                                           
+Get:60 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libpoppler-glib8 amd64 0.68.0-0ubuntu1.6 [110 kB]
+
+17% [60 libpoppler-glib8 1,972 B/110 kB 2%]                                                                                                                                               274 kB/s 22min 2s
+17% [Working]                                                                                                                                                                             274 kB/s 22min 2s
+                                                                                                                                                                                                           
+Get:61 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libnss3 amd64 2:3.36.1-1ubuntu1.2 [1,143 kB]
+
+17% [61 libnss3 3,945 B/1,143 kB 0%]                                                                                                                                                      274 kB/s 22min 2s
+17% [61 libnss3 163 kB/1,143 kB 14%]                                                                                                                                                      274 kB/s 22min 1s
+17% [61 libnss3 305 kB/1,143 kB 27%]                                                                                                                                                      274 kB/s 22min 1s
+17% [61 libnss3 468 kB/1,143 kB 41%]                                                                                                                                                      274 kB/s 22min 0s
+17% [61 libnss3 631 kB/1,143 kB 55%]                                                                                                                                                      274 kB/s 22min 0s
+17% [61 libnss3 781 kB/1,143 kB 68%]                                                                                                                                                     305 kB/s 19min 48s
+17% [61 libnss3 922 kB/1,143 kB 81%]                                                                                                                                                     305 kB/s 19min 47s
+17% [61 libnss3 1,076 kB/1,143 kB 94%]                                                                                                                                                   305 kB/s 19min 47s
+17% [Working]                                                                                                                                                                            305 kB/s 19min 46s
+                                                                                                                                                                                                           
+Get:62 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libtiff5 amd64 4.0.9-6ubuntu0.2 [152 kB]
+
+17% [62 libtiff5 0 B/152 kB 0%]                                                                                                                                                          305 kB/s 19min 46s
+18% [Working]                                                                                                                                                                            305 kB/s 19min 46s
+                                                                                                                                                                                                           
+Get:63 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 poppler-utils amd64 0.68.0-0ubuntu1.6 [156 kB]
+
+18% [63 poppler-utils 0 B/156 kB 0%]                                                                                                                                                     305 kB/s 19min 46s
+18% [Working]                                                                                                                                                                            305 kB/s 19min 45s
+                                                                                                                                                                                                           
+Get:64 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libpoppler79 amd64 0.68.0-0ubuntu1.6 [813 kB]
+
+18% [64 libpoppler79 0 B/813 kB 0%]                                                                                                                                                      305 kB/s 19min 45s
+18% [64 libpoppler79 163 kB/813 kB 20%]                                                                                                                                                  305 kB/s 19min 45s
+18% [64 libpoppler79 311 kB/813 kB 38%]                                                                                                                                                  305 kB/s 19min 44s
+18% [64 libpoppler79 471 kB/813 kB 58%]                                                                                                                                                  305 kB/s 19min 44s
+18% [64 libpoppler79 629 kB/813 kB 77%]                                                                                                                                                  305 kB/s 19min 43s
+18% [64 libpoppler79 770 kB/813 kB 95%]                                                                                                                                                  305 kB/s 19min 43s
+18% [Working]                                                                                                                                                                            305 kB/s 19min 43s
+                                                                                                                                                                                                           
+Get:65 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 ghostscript-x amd64 9.26~dfsg+0-0ubuntu0.18.10.8 [43.1 kB]
+
+18% [65 ghostscript-x 0 B/43.1 kB 0%]                                                                                                                                                    305 kB/s 19min 43s
+18% [Working]                                                                                                                                                                            305 kB/s 19min 43s
+                                                                                                                                                                                                           
+Get:66 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 ghostscript amd64 9.26~dfsg+0-0ubuntu0.18.10.8 [51.7 kB]
+
+18% [66 ghostscript 0 B/51.7 kB 0%]                                                                                                                                                      305 kB/s 19min 43s
+18% [Working]                                                                                                                                                                            305 kB/s 19min 42s
+                                                                                                                                                                                                           
+Get:67 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libgs9 amd64 9.26~dfsg+0-0ubuntu0.18.10.8 [2,388 kB]
+
+18% [67 libgs9 0 B/2,388 kB 0%]                                                                                                                                                          305 kB/s 19min 42s
+18% [67 libgs9 175 kB/2,388 kB 7%]                                                                                                                                                       305 kB/s 19min 42s
+18% [67 libgs9 320 kB/2,388 kB 13%]                                                                                                                                                      308 kB/s 19min 31s
+18% [67 libgs9 339 kB/2,388 kB 14%]                                                                                                                                                      308 kB/s 19min 30s
+18% [67 libgs9 407 kB/2,388 kB 17%]                                                                                                                                                      308 kB/s 19min 30s
+18% [67 libgs9 563 kB/2,388 kB 24%]                                                                                                                                                      308 kB/s 19min 30s
+18% [67 libgs9 698 kB/2,388 kB 29%]                                                                                                                                                      308 kB/s 19min 29s
+18% [67 libgs9 756 kB/2,388 kB 32%]                                                                                                                                                      308 kB/s 19min 29s
+18% [67 libgs9 855 kB/2,388 kB 36%]                                                                                                                                                      308 kB/s 19min 29s
+18% [67 libgs9 1,000 kB/2,388 kB 42%]                                                                                                                                                    308 kB/s 19min 28s
+18% [67 libgs9 1,167 kB/2,388 kB 49%]                                                                                                                                                    308 kB/s 19min 28s
+18% [67 libgs9 1,310 kB/2,388 kB 55%]                                                                                                                                                    308 kB/s 19min 27s
+18% [67 libgs9 1,476 kB/2,388 kB 62%]                                                                                                                                                    308 kB/s 19min 27s
+18% [67 libgs9 1,619 kB/2,388 kB 68%]                                                                                                                                                    308 kB/s 19min 26s
+18% [67 libgs9 1,769 kB/2,388 kB 74%]                                                                                                                                                    241 kB/s 24min 50s
+18% [67 libgs9 1,928 kB/2,388 kB 81%]                                                                                                                                                    241 kB/s 24min 49s
+18% [67 libgs9 2,090 kB/2,388 kB 88%]                                                                                                                                                    241 kB/s 24min 48s
+18% [67 libgs9 2,246 kB/2,388 kB 94%]                                                                                                                                                    241 kB/s 24min 48s
+19% [Working]                                                                                                                                                                            241 kB/s 24min 47s
+                                                                                                                                                                                                           
+Get:68 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libgs9-common all 9.26~dfsg+0-0ubuntu0.18.10.8 [5,093 kB]
+
+19% [68 libgs9-common 0 B/5,093 kB 0%]                                                                                                                                                   241 kB/s 24min 47s
+19% [68 libgs9-common 166 kB/5,093 kB 3%]                                                                                                                                                241 kB/s 24min 46s
+19% [68 libgs9-common 302 kB/5,093 kB 6%]                                                                                                                                                241 kB/s 24min 46s
+19% [68 libgs9-common 468 kB/5,093 kB 9%]                                                                                                                                                241 kB/s 24min 45s
+19% [68 libgs9-common 606 kB/5,093 kB 12%]                                                                                                                                               241 kB/s 24min 45s
+19% [68 libgs9-common 753 kB/5,093 kB 15%]                                                                                                                                               241 kB/s 24min 44s
+19% [68 libgs9-common 924 kB/5,093 kB 18%]                                                                                                                                               241 kB/s 24min 43s
+19% [68 libgs9-common 1,068 kB/5,093 kB 21%]                                                                                                                                             241 kB/s 24min 43s
+19% [68 libgs9-common 1,232 kB/5,093 kB 24%]                                                                                                                                             241 kB/s 24min 42s
+19% [68 libgs9-common 1,399 kB/5,093 kB 27%]                                                                                                                                              311 kB/s 19min 7s
+19% [68 libgs9-common 1,542 kB/5,093 kB 30%]                                                                                                                                              311 kB/s 19min 6s
+19% [68 libgs9-common 1,697 kB/5,093 kB 33%]                                                                                                                                              311 kB/s 19min 6s
+19% [68 libgs9-common 1,848 kB/5,093 kB 36%]                                                                                                                                              311 kB/s 19min 5s
+19% [68 libgs9-common 1,955 kB/5,093 kB 38%]                                                                                                                                              311 kB/s 19min 5s
+19% [68 libgs9-common 2,025 kB/5,093 kB 40%]                                                                                                                                              311 kB/s 19min 5s
+19% [68 libgs9-common 2,168 kB/5,093 kB 43%]                                                                                                                                              311 kB/s 19min 4s
+19% [68 libgs9-common 2,328 kB/5,093 kB 46%]                                                                                                                                              311 kB/s 19min 4s
+19% [68 libgs9-common 2,470 kB/5,093 kB 49%]                                                                                                                                              311 kB/s 19min 3s
+19% [68 libgs9-common 2,626 kB/5,093 kB 52%]                                                                                                                                              311 kB/s 19min 3s
+19% [68 libgs9-common 2,787 kB/5,093 kB 55%]                                                                                                                                              311 kB/s 19min 2s
+19% [68 libgs9-common 2,945 kB/5,093 kB 58%]                                                                                                                                              311 kB/s 19min 2s
+19% [68 libgs9-common 3,107 kB/5,093 kB 61%]                                                                                                                                             284 kB/s 20min 50s
+19% [68 libgs9-common 3,245 kB/5,093 kB 64%]                                                                                                                                             284 kB/s 20min 50s
+19% [68 libgs9-common 3,395 kB/5,093 kB 67%]                                                                                                                                             284 kB/s 20min 49s
+19% [68 libgs9-common 3,569 kB/5,093 kB 70%]                                                                                                                                             284 kB/s 20min 49s
+19% [68 libgs9-common 3,715 kB/5,093 kB 73%]                                                                                                                                             284 kB/s 20min 48s
+19% [68 libgs9-common 3,881 kB/5,093 kB 76%]                                                                                                                                             284 kB/s 20min 48s
+19% [68 libgs9-common 4,027 kB/5,093 kB 79%]                                                                                                                                             284 kB/s 20min 47s
+19% [68 libgs9-common 4,163 kB/5,093 kB 82%]                                                                                                                                             284 kB/s 20min 47s
+19% [68 libgs9-common 4,334 kB/5,093 kB 85%]                                                                                                                                             284 kB/s 20min 46s
+19% [68 libgs9-common 4,480 kB/5,093 kB 88%]                                                                                                                                             284 kB/s 20min 45s
+19% [68 libgs9-common 4,635 kB/5,093 kB 91%]                                                                                                                                             284 kB/s 20min 45s
+19% [68 libgs9-common 4,799 kB/5,093 kB 94%]                                                                                                                                             284 kB/s 20min 44s
+19% [68 libgs9-common 4,942 kB/5,093 kB 97%]                                                                                                                                             304 kB/s 19min 21s
+20% [Working]                                                                                                                                                                            304 kB/s 19min 21s
+20% [Waiting for headers]                                                                                                                                                                304 kB/s 19min 21s
+                                                                                                                                                                                                           
+Get:69 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 cups-ppdc amd64 2.2.8-5ubuntu1.2 [27.0 kB]
+
+20% [69 cups-ppdc 0 B/27.0 kB 0%]                                                                                                                                                        304 kB/s 19min 21s
+20% [Working]                                                                                                                                                                            304 kB/s 19min 21s
+                                                                                                                                                                                                           
+Get:70 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 cups-bsd amd64 2.2.8-5ubuntu1.2 [38.5 kB]
+
+20% [70 cups-bsd 0 B/38.5 kB 0%]                                                                                                                                                         304 kB/s 19min 21s
+20% [Working]                                                                                                                                                                            304 kB/s 19min 20s
+                                                                                                                                                                                                           
+Get:71 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 cups-client amd64 2.2.8-5ubuntu1.2 [139 kB]
+
+20% [71 cups-client 0 B/139 kB 0%]                                                                                                                                                       304 kB/s 19min 20s
+20% [Working]                                                                                                                                                                            304 kB/s 19min 20s
+                                                                                                                                                                                                           
+Get:72 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libcups2 amd64 2.2.8-5ubuntu1.2 [211 kB]
+
+20% [72 libcups2 0 B/211 kB 0%]                                                                                                                                                          304 kB/s 19min 20s
+20% [72 libcups2 190 kB/211 kB 90%]                                                                                                                                                      304 kB/s 19min 19s
+20% [Working]                                                                                                                                                                            304 kB/s 19min 19s
+                                                                                                                                                                                                           
+Get:73 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 cups amd64 2.2.8-5ubuntu1.2 [191 kB]
+
+20% [73 cups 0 B/191 kB 0%]                                                                                                                                                              304 kB/s 19min 19s
+20% [73 cups 190 kB/191 kB 99%]                                                                                                                                                          304 kB/s 19min 19s
+20% [Working]                                                                                                                                                                            304 kB/s 19min 19s
+                                                                                                                                                                                                           
+Get:74 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libpangoft2-1.0-0 amd64 1.42.4-3ubuntu1 [35.3 kB]
+
+20% [74 libpangoft2-1.0-0 2,319 B/35.3 kB 7%]                                                                                                                                            304 kB/s 19min 19s
+20% [Working]                                                                                                                                                                            304 kB/s 19min 19s
+                                                                                                                                                                                                           
+Get:75 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libpangocairo-1.0-0 amd64 1.42.4-3ubuntu1 [23.1 kB]
+
+20% [75 libpangocairo-1.0-0 2,319 B/23.1 kB 10%]                                                                                                                                         304 kB/s 19min 19s
+20% [Working]                                                                                                                                                                            304 kB/s 19min 18s
+                                                                                                                                                                                                           
+Get:76 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libwayland-client0 amd64 1.16.0-1ubuntu1.1 [23.7 kB]
+
+20% [76 libwayland-client0 2,319 B/23.7 kB 10%]                                                                                                                                          304 kB/s 19min 18s
+20% [Working]                                                                                                                                                                            304 kB/s 19min 18s
+                                                                                                                                                                                                           
+Get:77 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libwayland-cursor0 amd64 1.16.0-1ubuntu1.1 [10.0 kB]
+
+20% [77 libwayland-cursor0 2,319 B/10.0 kB 23%]                                                                                                                                          304 kB/s 19min 18s
+20% [Working]                                                                                                                                                                            304 kB/s 19min 18s
+                                                                                                                                                                                                           
+Get:78 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libwayland-egl1 amd64 1.16.0-1ubuntu1.1 [5,584 B]
+
+20% [78 libwayland-egl1 0 B/5,584 B 0%]                                                                                                                                                  304 kB/s 19min 18s
+20% [Working]                                                                                                                                                                            304 kB/s 19min 18s
+                                                                                                                                                                                                           
+Get:79 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libgtk-3-0 amd64 3.24.4-0ubuntu1 [2,541 kB]
+
+20% [79 libgtk-3-0 0 B/2,541 kB 0%]                                                                                                                                                      304 kB/s 19min 18s
+20% [79 libgtk-3-0 175 kB/2,541 kB 7%]                                                                                                                                                   164 kB/s 35min 41s
+20% [79 libgtk-3-0 331 kB/2,541 kB 13%]                                                                                                                                                  164 kB/s 35min 40s
+20% [79 libgtk-3-0 485 kB/2,541 kB 19%]                                                                                                                                                  164 kB/s 35min 39s
+20% [79 libgtk-3-0 658 kB/2,541 kB 26%]                                                                                                                                                  164 kB/s 35min 38s
+20% [79 libgtk-3-0 814 kB/2,541 kB 32%]                                                                                                                                                  164 kB/s 35min 37s
+20% [79 libgtk-3-0 982 kB/2,541 kB 39%]                                                                                                                                                  164 kB/s 35min 36s
+21% [79 libgtk-3-0 1,152 kB/2,541 kB 45%]                                                                                                                                                164 kB/s 35min 35s
+21% [79 libgtk-3-0 1,302 kB/2,541 kB 51%]                                                                                                                                                164 kB/s 35min 34s
+21% [79 libgtk-3-0 1,442 kB/2,541 kB 57%]                                                                                                                                                164 kB/s 35min 33s
+21% [79 libgtk-3-0 1,621 kB/2,541 kB 64%]                                                                                                                                                164 kB/s 35min 32s
+21% [79 libgtk-3-0 1,769 kB/2,541 kB 70%]                                                                                                                                                164 kB/s 35min 31s
+21% [79 libgtk-3-0 1,937 kB/2,541 kB 76%]                                                                                                                                                164 kB/s 35min 30s
+21% [79 libgtk-3-0 2,104 kB/2,541 kB 83%]                                                                                                                                                319 kB/s 18min 16s
+21% [79 libgtk-3-0 2,272 kB/2,541 kB 89%]                                                                                                                                                319 kB/s 18min 16s
+21% [79 libgtk-3-0 2,441 kB/2,541 kB 96%]                                                                                                                                                319 kB/s 18min 15s
+21% [Working]                                                                                                                                                                            319 kB/s 18min 15s
+                                                                                                                                                                                                           
+Get:80 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 nautilus amd64 1:3.26.4-0ubuntu7.1 [811 kB]
+
+21% [80 nautilus 0 B/811 kB 0%]                                                                                                                                                          319 kB/s 18min 15s
+21% [80 nautilus 154 kB/811 kB 19%]                                                                                                                                                      319 kB/s 18min 14s
+21% [80 nautilus 323 kB/811 kB 40%]                                                                                                                                                      319 kB/s 18min 14s
+21% [80 nautilus 483 kB/811 kB 60%]                                                                                                                                                      319 kB/s 18min 13s
+21% [80 nautilus 639 kB/811 kB 79%]                                                                                                                                                      319 kB/s 18min 13s
+21% [80 nautilus 805 kB/811 kB 99%]                                                                                                                                                      319 kB/s 18min 12s
+21% [Working]                                                                                                                                                                            319 kB/s 18min 12s
+                                                                                                                                                                                                           
+Get:81 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libnautilus-extension1a amd64 1:3.26.4-0ubuntu7.1 [15.1 kB]
+
+21% [81 libnautilus-extension1a 0 B/15.1 kB 0%]                                                                                                                                          319 kB/s 18min 12s
+21% [Working]                                                                                                                                                                            319 kB/s 18min 12s
+                                                                                                                                                                                                           
+Get:82 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 desktop-file-utils amd64 0.23-3ubuntu3 [50.2 kB]
+
+21% [82 desktop-file-utils 2,319 B/50.2 kB 5%]                                                                                                                                           319 kB/s 18min 12s
+21% [Working]                                                                                                                                                                            319 kB/s 18min 12s
+                                                                                                                                                                                                           
+Get:83 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 psmisc amd64 23.1-1ubuntu1.1 [52.4 kB]
+
+21% [83 psmisc 2,319 B/52.4 kB 4%]                                                                                                                                                       319 kB/s 18min 12s
+21% [Working]                                                                                                                                                                            319 kB/s 18min 12s
+                                                                                                                                                                                                           
+Get:84 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libarchive13 amd64 3.2.2-5ubuntu0.2 [298 kB]
+
+21% [84 libarchive13 7,517 B/298 kB 3%]                                                                                                                                                  319 kB/s 18min 12s
+21% [84 libarchive13 183 kB/298 kB 61%]                                                                                                                                                  256 kB/s 22min 42s
+21% [Working]                                                                                                                                                                            256 kB/s 22min 42s
+                                                                                                                                                                                                           
+Get:85 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libavahi-glib1 amd64 0.7-4ubuntu2.1 [7,604 B]
+
+21% [85 libavahi-glib1 1,020 B/7,604 B 13%]                                                                                                                                              256 kB/s 22min 42s
+21% [Working]                                                                                                                                                                            256 kB/s 22min 42s
+                                                                                                                                                                                                           
+Get:86 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libsmbclient amd64 2:4.8.4+dfsg-2ubuntu2.1 [54.6 kB]
+
+21% [86 libsmbclient 2,319 B/54.6 kB 4%]                                                                                                                                                 256 kB/s 22min 42s
+22% [Working]                                                                                                                                                                            256 kB/s 22min 42s
+                                                                                                                                                                                                           
+Get:87 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libldb1 amd64 2:1.4.0+really1.3.5-2ubuntu0.1 [119 kB]
+
+22% [87 libldb1 0 B/119 kB 0%]                                                                                                                                                           256 kB/s 22min 42s
+22% [Working]                                                                                                                                                                            256 kB/s 22min 41s
+                                                                                                                                                                                                           
+Get:88 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 samba-libs amd64 2:4.8.4+dfsg-2ubuntu2.1 [5,310 kB]
+
+22% [88 samba-libs 2,315 B/5,310 kB 0%]                                                                                                                                                  256 kB/s 22min 41s^C
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ apt [K-cache search htop
+htop - interactive processes viewer
+aha - ANSI color to HTML converter
+libauthen-oath-perl - Perl module for OATH One Time Passwords
+pftools - build and search protein and DNA generalized profiles
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo apy-get install apache2
+sudo: apy-get: command not found
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo apy-get install apache2[1P[1@t
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+0 upgraded, 9 newly installed, 0 to remove and 316 not upgraded.
+Need to get 1,737 kB of archives.
+After this operation, 7,521 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+
+0% [Working]
+0% [Connecting to in.archive.ubuntu.com (91.189.88.149)]
+                                                        
+Get:1 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 libapr1 amd64 1.6.3-3 [91.5 kB]
+
+                                                        
+0% [1 libapr1 0 B/91.5 kB 0%]
+2% [1 libapr1 42.6 kB/91.5 kB 47%]
+                                  
+6% [Working]
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 libaprutil1 amd64 1.6.1-3 [84.6 kB]
+
+6% [2 libaprutil1 0 B/84.6 kB 0%]
+                                 
+13% [Working]
+             
+Get:3 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-3 [10.6 kB]
+
+13% [3 libaprutil1-dbd-sqlite3 0 B/10.6 kB 0%]
+                                              
+15% [Working]
+             
+Get:4 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 libaprutil1-ldap amd64 1.6.1-3 [8,684 B]
+
+15% [4 libaprutil1-ldap 0 B/8,684 B 0%]
+                                       
+18% [Waiting for headers]
+                         
+Get:5 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 liblua5.2-0 amd64 5.2.4-1.1build1 [108 kB]
+
+18% [5 liblua5.2-0 1,646 B/108 kB 2%]
+                                     
+25% [Waiting for headers]
+                         
+Get:6 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 apache2-bin amd64 2.4.34-1ubuntu2.1 [1,089 kB]
+
+25% [6 apache2-bin 1,185 B/1,089 kB 0%]
+32% [6 apache2-bin 160 kB/1,089 kB 15%]
+39% [6 apache2-bin 306 kB/1,089 kB 28%]
+46% [6 apache2-bin 456 kB/1,089 kB 42%]
+53% [6 apache2-bin 612 kB/1,089 kB 56%]
+60% [6 apache2-bin 768 kB/1,089 kB 71%]
+67% [6 apache2-bin 919 kB/1,089 kB 84%]
+75% [6 apache2-bin 1,079 kB/1,089 kB 99%]                                                                                                                                                       217 kB/s 1s
+77% [Working]                                                                                                                                                                                   217 kB/s 1s
+                                                                                                                                                                                                           
+Get:7 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 apache2-data all 2.4.34-1ubuntu2.1 [164 kB]
+
+77% [7 apache2-data 0 B/164 kB 0%]                                                                                                                                                              217 kB/s 1s
+85% [7 apache2-data 158 kB/164 kB 96%]                                                                                                                                                          217 kB/s 0s
+87% [Working]                                                                                                                                                                                   217 kB/s 0s
+                                                                                                                                                                                                           
+Get:8 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 apache2-utils amd64 2.4.34-1ubuntu2.1 [85.9 kB]
+
+88% [8 apache2-utils 8,052 B/85.9 kB 9%]                                                                                                                                                        217 kB/s 0s
+93% [Waiting for headers]                                                                                                                                                                       217 kB/s 0s
+                                                                                                                                                                                                           
+Get:9 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 apache2 amd64 2.4.34-1ubuntu2.1 [95.1 kB]
+
+93% [9 apache2 1,816 B/95.1 kB 2%]                                                                                                                                                              217 kB/s 0s
+100% [Working]                                                                                                                                                                                  217 kB/s 0s
+                                                                                                                                                                                                           
+Fetched 1,737 kB in 8s (229 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 148196 files and directories currently installed.)
+Preparing to unpack .../0-libapr1_1.6.3-3_amd64.deb ...
+Unpacking libapr1:amd64 (1.6.3-3) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../1-libaprutil1_1.6.1-3_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-3) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../2-libaprutil1-dbd-sqlite3_1.6.1-3_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-3) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../3-libaprutil1-ldap_1.6.1-3_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.1-3) ...
+Selecting previously unselected package liblua5.2-0:amd64.
+Preparing to unpack .../4-liblua5.2-0_5.2.4-1.1build1_amd64.deb ...
+Unpacking liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../5-apache2-bin_2.4.34-1ubuntu2.1_amd64.deb ...
+Unpacking apache2-bin (2.4.34-1ubuntu2.1) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../6-apache2-data_2.4.34-1ubuntu2.1_all.deb ...
+Unpacking apache2-data (2.4.34-1ubuntu2.1) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../7-apache2-utils_2.4.34-1ubuntu2.1_amd64.deb ...
+Unpacking apache2-utils (2.4.34-1ubuntu2.1) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../8-apache2_2.4.34-1ubuntu2.1_amd64.deb ...
+Unpacking apache2 (2.4.34-1ubuntu2.1) ...
+Setting up libapr1:amd64 (1.6.3-3) ...
+Processing triggers for ufw (0.35-6) ...
+Setting up apache2-data (2.4.34-1ubuntu2.1) ...
+Processing triggers for libc-bin (2.28-0ubuntu1) ...
+Setting up libaprutil1:amd64 (1.6.1-3) ...
+Processing triggers for systemd (239-7ubuntu10) ...
+Processing triggers for man-db (2.8.4-2) ...
+Setting up liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-3) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-3) ...
+Setting up apache2-utils (2.4.34-1ubuntu2.1) ...
+Setting up apache2-bin (2.4.34-1ubuntu2.1) ...
+Setting up apache2 (2.4.34-1ubuntu2.1) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Processing triggers for libc-bin (2.28-0ubuntu1) ...
+Processing triggers for systemd (239-7ubuntu10) ...
+Processing triggers for ufw (0.35-6) ...
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo dpkg-reconfigure apche[K[K[Kache2
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ sudo apt-get ren[Kmove apache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages were automatically installed and are no longer required:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  apache2
+0 upgraded, 0 newly installed, 1 to remove and 316 not upgraded.
+After this operation, 536 kB disk space will be freed.
+Do you want to continue? [Y/n] Y
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 148899 files and directories currently installed.)
+Removing apache2 (2.4.34-1ubuntu2.1) ...
+Processing triggers for ufw (0.35-6) ...
+Processing triggers for man-db (2.8.4-2) ...
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ apt-cache show htop
+Package: htop
+Architecture: amd64
+Version: 2.2.0-1
+Priority: optional
+Section: utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Daniel Lange <DLange@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 216
+Depends: libc6 (>= 2.15), libncursesw6 (>= 6), libtinfo6 (>= 6)
+Suggests: lsof, strace
+Filename: pool/main/h/htop/htop_2.2.0-1_amd64.deb
+Size: 80084
+MD5sum: 69af0938e6bd2e1602fa35ecb29bf688
+SHA1: dbb748c0ccd33eb490d89efa0129582541c996b0
+SHA256: 50162aabbe27879f6470729c253a30e5457fabd13e2a9de0672007314f521030
+Homepage: https://hisham.hm/htop/
+Description-en: interactive processes viewer
+ Htop is an ncursed-based process viewer similar to top, but it
+ allows one to scroll the list vertically and horizontally to see
+ all processes and their full command lines.
+ .
+ Tasks related to processes (killing, renicing) can be done without
+ entering their PIDs.
+Description-md5: 8eb5aa19b3c92a975dc78e2165f6688d
+Task: cloud-image, server, lubuntu-desktop
+Supported: 9m
+
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ apt-cache showpkg htop
+Package: htop
+Versions: 
+2.2.0-1 (/var/lib/apt/lists/in.archive.ubuntu.com_ubuntu_dists_cosmic_main_binary-amd64_Packages)
+ Description Language: 
+                 File: /var/lib/apt/lists/in.archive.ubuntu.com_ubuntu_dists_cosmic_main_binary-amd64_Packages
+                  MD5: 8eb5aa19b3c92a975dc78e2165f6688d
+ Description Language: 
+                 File: /var/lib/apt/lists/in.archive.ubuntu.com_ubuntu_dists_cosmic_main_binary-i386_Packages
+                  MD5: 8eb5aa19b3c92a975dc78e2165f6688d
+ Description Language: en
+                 File: /var/lib/apt/lists/in.archive.ubuntu.com_ubuntu_dists_cosmic_main_i18n_Translation-en
+                  MD5: 8eb5aa19b3c92a975dc78e2165f6688d
+
+
+Reverse Depends: 
+  ubuntu-server,htop
+  util-vserver,htop
+  ubuntu-benchmark-tools,htop
+  lubuntu-desktop,htop
+  hollywood,htop
+  freedombox-setup,htop
+  htop:i386,htop
+Dependencies: 
+2.2.0-1 - libc6 (2 2.15) libncursesw6 (2 6) libtinfo6 (2 6) lsof (0 (null)) strace (0 (null)) htop:i386 (32 (null)) 
+Provides: 
+2.2.0-1 - 
+Reverse Provides: 
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ apt-cache policy htop
+htop:
+  Installed: (none)
+  Candidate: 2.2.0-1
+  Version table:
+     2.2.0-1 500
+        500 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 Packages
+]0;moniya@moniya-VirtualBox: ~[01;32mmoniya@moniya-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-08 12:10:49+05:30
